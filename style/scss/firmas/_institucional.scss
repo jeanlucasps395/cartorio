@@ -1,0 +1,57 @@
+.institucional {
+	&__back {
+		background-image: url("../../style/img/1920x1140.png");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+		height: 106px;
+		margin-bottom: 50px;
+
+		h1 {
+			font-size: 28px;
+			font-weight: 700;
+			color: white;
+			margin: 0;
+		}
+
+		.breadcrumb {
+			background: none;
+			font-size: 12px;
+			color: white;
+			li {
+				padding-right: 15px;
+
+				&:first-child {
+					&::after {
+						content: "\f101";
+						font-family: "font awesome 5 pro";
+						padding-left: 13px;
+					}
+				}
+			}
+
+			a {
+				color: #9a9a9a;
+				text-decoration: none;
+
+				&:hover {
+					color: white;
+				}
+			}
+		}
+	}
+
+	&__content {
+		padding-top: 20px;
+	}
+	.btn-impresso {
+		text-align: end;
+		color: white;
+		margin: 15px 0 ;
+		&__input {
+			border: 0;
+			font-size: 13px;
+			padding: 12px;
+		}
+	}
+}

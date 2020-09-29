@@ -1,0 +1,109 @@
+.mosaic__block {
+	padding: 0;
+	list-style: none;
+
+	@media (min-width: $screen-sm-min) {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		margin-top: -100px;
+		z-index: 99999;
+	}
+	* {
+		color: white;
+		text-align: center;
+	}
+
+	&--one {
+		background-color: #0069b0;
+		width: 100%;
+		padding: 25px 17px;
+
+		&:hover {
+			background-color: #00548c !important;
+		}
+
+		@media (min-width: $screen-sm-min) and (max-width: 991px) {
+			flex-basis: 50%;
+			&:nth-child(3) {
+				background-color: #005d9c;
+			}
+			&:nth-child(7) {
+				background-color: #005d9c;
+			}
+			&:nth-child(11) {
+				background-color: #005d9c;
+			}
+		}
+		@media (min-width: $screen-md-min) {
+			flex-basis: 30%;
+		}
+
+		@media (min-width: $screen-lg-min) {
+			flex-basis: 25%;
+			&:nth-child(5) {
+				background-color: #005d9c;
+			}
+			&:nth-child(7) {
+				background-color: #005d9c;
+			}
+		}
+
+		&-icon {
+			margin-bottom: 20px;
+		}
+		&-title {
+			margin-bottom: 20px;
+		}
+		&-btn {
+			margin-bottom: 20px;
+
+			a:hover {
+				color: white;
+				text-decoration: none;
+			}
+		}
+	}
+
+	&--two {
+		background-color: #005d9c;
+		width: 100%;
+		padding: 25px 17px;
+
+		&:hover {
+			background-color: #00548c !important;
+		}
+
+		@media (min-width: $screen-sm-min) and (max-width: 991px) {
+			flex-basis: 50%;
+			&:nth-child(4) {
+				background-color: #0069b0;
+			}
+			&:nth-child(8) {
+				background-color: #0069b0;
+			}
+			&:nth-child(12) {
+				background-color: #0069b0;
+			}
+		}
+		@media (min-width: $screen-md-min) {
+			flex-basis: 30%;
+		}
+		@media (min-width: $screen-lg-min) {
+			flex-basis: 25%;
+			&:nth-child(6) {
+				background-color: #0069b0;
+			}
+			&:nth-child(8) {
+				background-color: #0069b0;
+			}
+		}
+	}
+
+	a {
+		background-color: #337ab7;
+		border-color: #2e6da4;
+		padding: 10px;
+		text-decoration: none;
+	}
+}

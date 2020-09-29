@@ -1,0 +1,27 @@
+.cart-footer {
+  background-color: #171717;
+  color: #9a9a9a;
+  padding: 30px;
+}
+.cart-footer hr {
+  border: 1px solid #9a9a9a;
+}
+.cart-footer__social img {
+  width: 28px;
+}
+.cart-footer ul {
+  padding: 0;
+  list-style: none;
+}
+.cart-footer ul li {
+  padding: 0 3px;
+}
+.cart-footer .cart-footer-end {
+  background: black;
+  color: #9a9a9a;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 15px;
+}
+
+/*# sourceMappingURL=footer.css.map */

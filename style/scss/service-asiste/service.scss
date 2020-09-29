@@ -1,0 +1,29 @@
+.service {
+  ul {
+    height: 400px;
+    overflow: auto;
+    padding: 0;
+  }
+
+  &__block {
+    margin-bottom: 12px;
+    padding: 6px;
+    background-color: #f6f6fa;
+    transition: all 0.4s;
+
+    &:hover {
+      background-color: #eee;
+    }
+
+    img {
+      width: 53px;
+    }
+
+    p {
+      font-size: 13px;
+      font-weight: 400;
+      margin-top: 6px;
+      margin-bottom: 4px;
+    }
+  }
+}
