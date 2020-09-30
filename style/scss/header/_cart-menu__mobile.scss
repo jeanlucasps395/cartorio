@@ -31,7 +31,7 @@
 
 				&:hover {
 					background-color: #f1f1f1;
-					color: #0069b0;
+					color: $cor-escuro;
 				}
 
 				i {
@@ -39,10 +39,10 @@
 				}
 
 				a {
-					color: black;
+					color: $cor-end-page;
 					text-decoration: none;
 					&:hover {
-						color: #0069b0;
+						color: $cor-escuro;
 					}
 				}
 			}
@@ -102,8 +102,8 @@
 
 				a {
 					color: #fff;
-					background-color: #0069b0;
-					border-color: #0069b0;
+					background-color: $cor-escuro;
+					border-color: $cor-escuro;
 					border-radius: 0;
 					padding: 8px 15px;
 					text-align: center;

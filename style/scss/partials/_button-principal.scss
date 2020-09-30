@@ -1,0 +1,12 @@
+.btn-p {
+	background-color: $cor-btn-p;
+	padding: 10px;
+	text-decoration: none;
+	outline: none;
+	color: white;
+	border: 0;
+
+	&:hover {
+		background-color: $cor-escuro-v2;
+	}
+}

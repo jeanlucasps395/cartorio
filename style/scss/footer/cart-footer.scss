@@ -1,7 +1,7 @@
 .cart-footer {
-	background-color: #171717;
+	background-color: $cor-footer;
 	color: #9a9a9a;
-	padding: 30px;
+	padding-top: 30px;
 
 	hr {
 		border: 1px solid #9a9a9a;
@@ -22,7 +22,7 @@
 	}
 
 	.cart-footer-end {
-		background: black;
+		background: $cor-end-page;
 		color: #9a9a9a;
 		text-align: center;
 		padding: 20px 0;

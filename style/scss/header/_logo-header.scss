@@ -1,5 +1,5 @@
 .logo-header {
-	background: #dfedff;
+	background: $cor-claro-v2;
 	height: 115px;
 
 	ul {
@@ -22,7 +22,7 @@
 			color: white;
 			width: 35px;
 			height: 35px;
-			background-color: #0069b0;
+			background-color: $cor-escuro;
 			border-radius: 53px;
 			display: flex;
 			justify-content: center;
@@ -42,7 +42,7 @@
 		a {
 			font-size: 12px;
 			text-decoration: none !important;
-			color: black;
+			color: $cor-end-page;
 		}
 	}
 }

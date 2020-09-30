@@ -284,6 +284,18 @@
   position: relative;
 }
 
+.btn-p {
+  background-color: #337ab7;
+  padding: 10px;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  border: 0;
+}
+.btn-p:hover {
+  background-color: #005d9c;
+}
+
 .mosaic__block {
   padding: 0;
   list-style: none;
@@ -390,12 +402,6 @@
     background-color: #0069b0;
   }
 }
-.mosaic__block a {
-  background-color: #337ab7;
-  border-color: #2e6da4;
-  padding: 10px;
-  text-decoration: none;
-}
 
 .carousel-banner .carousel-item {
   height: 360px;
@@ -495,7 +501,7 @@
 .cart-footer {
   background-color: #171717;
   color: #9a9a9a;
-  padding: 30px;
+  padding-top: 30px;
 }
 .cart-footer hr {
   border: 1px solid #9a9a9a;
@@ -587,6 +593,37 @@
   font-size: 13px;
   margin-top: 15px;
   margin-bottom: 15px;
+}
+.content ol {
+  list-style: lower-alpha;
+}
+.content ol li {
+  margin: 15px 0;
+}
+
+.btn-p {
+  background-color: #337ab7;
+  padding: 10px;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  border: 0;
+}
+.btn-p:hover {
+  background-color: #005d9c;
+}
+
+input[type=text] {
+  border: 1px solid black;
+  width: 100%;
+  padding: 5px 15px;
+}
+input[type=text]:hover {
+  border: 1px solid #0069b0;
+}
+
+.consulta {
+  text-align: center;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -30,13 +30,13 @@
 					top: 0;
 					left: 50%;
 					right: 50%;
-					background-color: #0069b0;
+					background-color: $cor-escuro;
 					transition: all 0.5s;
 				}
 
 				&:hover {
 					background-color: white;
-					color: #0069b0;
+					color: $cor-escuro;
 
 					&:before {
 						left: 0;
@@ -44,7 +44,7 @@
 					}
 
 					a {
-						color: #0069b0;
+						color: $cor-escuro;
 					}
 				}
 
@@ -73,7 +73,7 @@
 		z-index: 1040;
 
 		span {
-			color: black;
+			color: $cor-end-page;
 		}
 	}
 
@@ -95,7 +95,7 @@
 				align-items: center;
 				width: 100%;
 				&:hover {
-					background-color: #0069b0;
+					background-color: $cor-escuro;
 
 					span {
 						color: white;

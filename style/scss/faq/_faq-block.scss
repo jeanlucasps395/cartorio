@@ -1,5 +1,5 @@
 .faq-block {
-  background-color: #171717;
+  background-color: $cor-footer;
   color: white;
   padding: 25px;
 
@@ -55,7 +55,7 @@
           height: 0;
           border-style: solid;
           border-width: 5px 5px 0 0;
-          border-color: #0069b0 transparent transparent transparent;
+          border-color: $cor-escuro transparent transparent transparent;
           border-top-color: #4caf50;
         }
       }

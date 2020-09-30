@@ -2,6 +2,18 @@
   position: relative;
 }
 
+.btn-p {
+  background-color: #337ab7;
+  padding: 10px;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  border: 0;
+}
+.btn-p:hover {
+  background-color: #005d9c;
+}
+
 .mosaic__block {
   padding: 0;
   list-style: none;
@@ -107,12 +119,6 @@
   .mosaic__block--two:nth-child(8) {
     background-color: #0069b0;
   }
-}
-.mosaic__block a {
-  background-color: #337ab7;
-  border-color: #2e6da4;
-  padding: 10px;
-  text-decoration: none;
 }
 
 .carousel-banner .carousel-item {

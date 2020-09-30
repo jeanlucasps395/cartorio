@@ -50,7 +50,7 @@
                                 CONSULTA DE TÍTULO
                             </div>
                             <div class="mosaic__block--one-btn">
-                                <a href="">Consultar</a>
+                                <a class="btn-p" href="">Consultar</a>
                             </div>
                         </li>
                         <li class="mosaic__block--two">
@@ -61,7 +61,7 @@
                                 CONSULTA DE TÍTULO
                             </div>
                             <div class="mosaic__block--one-btn">
-                                <a href="">Consultar</a>
+                                <a class="btn-p" href="">Consultar</a>
                             </div>
                         </li>
                         <li class="mosaic__block--one">
@@ -72,7 +72,7 @@
                                 CONSULTA DE TÍTULO
                             </div>
                             <div class="mosaic__block--one-btn">
-                                <a href="">Consultar</a>
+                                <a class="btn-p"href="">Consultar</a>
                             </div>
                         </li>
                         <li class="mosaic__block--two">
@@ -83,7 +83,7 @@
                                 CONSULTA DE TÍTULO
                             </div>
                             <div class="mosaic__block--one-btn">
-                                <a href="">Consultar</a>
+                                <a class="btn-p" href="">Consultar</a>
                             </div>
                         </li>
                         <li class="mosaic__block--one">
@@ -94,7 +94,7 @@
                                 CONSULTA DE TÍTULO
                             </div>
                             <div class="mosaic__block--one-btn">
-                                <a href="">Consultar</a>
+                                <a class="btn-p" href="">Consultar</a>
                             </div>
                         </li>
                         <li class="mosaic__block--two">
@@ -105,7 +105,7 @@
                                 CONSULTA DE TÍTULO
                             </div>
                             <div class="mosaic__block--one-btn">
-                                <a href="">Consultar</a>
+                                <a class="btn-p" href="">Consultar</a>
                             </div>
                         </li>
                         <li class="mosaic__block--one">
@@ -116,7 +116,7 @@
                                 CONSULTA DE TÍTULO
                             </div>
                             <div class="mosaic__block--one-btn">
-                                <a href="">Consultar</a>
+                                <a class="btn-p" href="">Consultar</a>
                             </div>
                         </li>
                         <li class="mosaic__block--two">
@@ -127,7 +127,7 @@
                                 CONSULTA DE TÍTULO
                             </div>
                             <div class="mosaic__block--one-btn">
-                                <a href="">Consultar</a>
+                                <a class="btn-p" href="">Consultar</a>
                             </div>
                         </li>
                         <li class="mosaic__block--one">
@@ -138,7 +138,7 @@
                                 CONSULTA DE TÍTULO
                             </div>
                             <div class="mosaic__block--one-btn">
-                                <a href="">Consultar</a>
+                                <a class="btn-p" href="">Consultar</a>
                             </div>
                         </li>
                         <li class="mosaic__block--two">
@@ -149,7 +149,7 @@
                                 CONSULTA DE TÍTULO
                             </div>
                             <div class="mosaic__block--one-btn">
-                                <a href="">Consultar</a>
+                                <a class="btn-p" href="">Consultar</a>
                             </div>
                         </li>
                         <li class="mosaic__block--one">
@@ -160,7 +160,7 @@
                                 CONSULTA DE TÍTULO
                             </div>
                             <div class="mosaic__block--one-btn">
-                                <a href="">Consultar</a>
+                                <a class="btn-p"href="">Consultar</a>
                             </div>
                         </li>
                         <li class="mosaic__block--two">
@@ -171,7 +171,7 @@
                                 CONSULTA DE TÍTULO
                             </div>
                             <div class="mosaic__block--one-btn">
-                                <a href="">Consultar</a>
+                                <a class="btn-p" href="">Consultar</a>
                             </div>
                         </li>
                     </ul>
