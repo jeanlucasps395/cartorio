@@ -290,7 +290,7 @@
   text-decoration: none;
   outline: none;
   color: white;
-  border: 0;
+  border: 1px solid #337ab7;
 }
 .btn-p:hover {
   background-color: #005d9c;
@@ -607,23 +607,97 @@
   text-decoration: none;
   outline: none;
   color: white;
-  border: 0;
+  border: 1px solid #337ab7;
 }
 .btn-p:hover {
   background-color: #005d9c;
 }
 
+.btn-w {
+  background-color: white;
+  padding: 10px;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  border: 1px solid #b9b9b9;
+}
+.btn-w:hover {
+  background-color: #ebebeb;
+}
+
 input[type=text] {
-  border: 1px solid black;
+  border: 1px solid #b9b9b9;
   width: 100%;
   padding: 5px 15px;
 }
 input[type=text]:hover {
   border: 1px solid #0069b0;
 }
+input[type=text]:active {
+  border: 1px solid #0069b0;
+}
 
 .consulta {
   text-align: center;
+}
+.consulta__block {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 992px) {
+  .consulta__block {
+    flex-direction: row;
+  }
+}
+.consulta__block--list:first-child {
+  border-top: 2px solid #0069b0;
+}
+.consulta__block--list P {
+  border: 1px solid #b9b9b9;
+  margin-bottom: 0;
+  padding: 7px;
+}
+.consulta__block--list P i {
+  margin-right: 5px;
+}
+.consulta__block ul {
+  width: 100%;
+  padding: 0;
+}
+.consulta__block ul li {
+  margin: 10px 0;
+  align-items: center;
+}
+.consulta__block ul li strong {
+  min-width: 30%;
+  text-align: end;
+  padding-right: 5px;
+}
+.consulta__block ul .consulta__search--btn {
+  justify-content: center;
+}
+@media (min-width: 1200px) {
+  .consulta__block ul .consulta__search--btn {
+    width: 81%;
+  }
+}
+.consulta__block ul .consulta__search--btn .btn-p {
+  margin-right: 5px;
+}
+.consulta__block ul .consulta__search--btn .btn-w {
+  margin-left: 5px;
+}
+@media (max-width: 991px) {
+  .consulta__block .col-lg-3 {
+    padding: 0;
+  }
+}
+.consulta__search {
+  display: none;
+}
+.consulta__card ul {
+  list-style: none;
+  padding: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

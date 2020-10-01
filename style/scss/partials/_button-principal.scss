@@ -4,7 +4,7 @@
 	text-decoration: none;
 	outline: none;
 	color: white;
-	border: 0;
+	border: 1px solid $cor-btn-p;
 
 	&:hover {
 		background-color: $cor-escuro-v2;

@@ -1,9 +1,12 @@
 input[type="text"] {
-	border: 1px solid $cor-end-page;
+	border: 1px solid #b9b9b9;
 	width: 100%;
 	padding: 5px 15px;
 
 	&:hover {
+		border: 1px solid $cor-escuro;
+	}
+	&:active {
 		border: 1px solid $cor-escuro;
 	}
 }

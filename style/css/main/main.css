@@ -8,7 +8,7 @@
   text-decoration: none;
   outline: none;
   color: white;
-  border: 0;
+  border: 1px solid #337ab7;
 }
 .btn-p:hover {
   background-color: #005d9c;

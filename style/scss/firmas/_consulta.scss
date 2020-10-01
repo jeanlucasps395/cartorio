@@ -4,5 +4,74 @@
 .consulta {
 	text-align: center;
 
-	
+	&__block {
+		display: flex;
+		flex-direction: column;
+
+		@media (min-width: $screen-md-min) {
+			flex-direction: row;
+		}
+
+		&--list {
+			&:first-child {
+				border-top: 2px solid $cor-escuro;
+			}
+
+			P {
+				border: 1px solid #b9b9b9;
+				margin-bottom: 0;
+				padding: 7px;
+
+				i {
+					margin-right: 5px;
+				}
+			}
+		}
+
+		ul {
+			width: 100%;
+			padding: 0;
+
+			li {
+				margin: 10px 0;
+				align-items: center;
+
+				strong {
+					min-width: 30%;
+					text-align: end;
+					padding-right: 5px;
+				}
+			}
+
+			.consulta__search--btn {
+				justify-content: center;
+
+				@media (min-width: $screen-lg-min) {
+					width: 81%;
+				}
+				.btn-p {
+					margin-right: 5px;
+				}
+				.btn-w {
+					margin-left: 5px;
+				}
+			}
+		}
+
+		.col-lg-3 {
+			@media (max-width: $screen-sm-max) {
+				padding: 0;
+			}
+		}
+	}
+
+	&__search {
+		display: none;
+	}
+	&__card {
+		ul {
+			list-style: none;
+			padding: 0;
+		}
+	}
 }
