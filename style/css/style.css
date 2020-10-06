@@ -656,6 +656,7 @@ input[type=text]:active {
   border: 1px solid #b9b9b9;
   margin-bottom: 0;
   padding: 7px;
+  cursor: pointer;
 }
 .consulta__block--list P i {
   margin-right: 5px;
@@ -667,6 +668,7 @@ input[type=text]:active {
 .consulta__block ul li {
   margin: 10px 0;
   align-items: center;
+  display: flex;
 }
 .consulta__block ul li strong {
   min-width: 30%;
@@ -692,12 +694,15 @@ input[type=text]:active {
     padding: 0;
   }
 }
-.consulta__search {
-  display: none;
-}
 .consulta__card ul {
   list-style: none;
   padding: 0;
+}
+.consulta__card ul li {
+  display: flex;
+}
+.consulta__card ul li strong {
+  text-align: left;
 }
 
 /*# sourceMappingURL=style.css.map */

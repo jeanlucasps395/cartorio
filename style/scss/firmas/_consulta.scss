@@ -21,6 +21,7 @@
 				border: 1px solid #b9b9b9;
 				margin-bottom: 0;
 				padding: 7px;
+				cursor: pointer;
 
 				i {
 					margin-right: 5px;
@@ -35,6 +36,7 @@
 			li {
 				margin: 10px 0;
 				align-items: center;
+				display: flex;
 
 				strong {
 					min-width: 30%;
@@ -66,12 +68,21 @@
 	}
 
 	&__search {
-		display: none;
 	}
 	&__card {
 		ul {
 			list-style: none;
 			padding: 0;
+			li {
+				display: flex;
+				strong {
+					text-align: left;
+				}
+			}
 		}
+		// .consulta__card--cpf,
+		// .consulta__card--rg {
+		// 	display: none !important;
+		// }
 	}
 }

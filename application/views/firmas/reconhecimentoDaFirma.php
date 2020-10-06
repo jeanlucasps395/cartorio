@@ -8,7 +8,7 @@
 				<div class="institucional__breadcrumb">
 					<ul class="breadcrumb">
 						<li><a href="/home">Home</a></li>
-						<li>Apostilamento de Documento</li>
+						<li>Reconhecimento de Firma</li>
 					</ul>
 				</div>
 			</div>
@@ -16,35 +16,58 @@
 	</div>
 	<div class="container">
 		<div class="content">
-			<h5><strong>Apostilamento de Documento</strong></h5>
+			<h5><strong>Reconhecimento de Firma</strong></h5>
 			<div class="content__title">
 				<strong>Conceito</strong>
 			</div>
 			<p>
-				Por intermédio da apostila (Apostila de Haia), os portadores de determinados tipos de documentos, poderão validá-los para utilização no exterior, em inúmeros atos de suas vidas, como a obtenção de dupla cidadania. Trata-se de procedimento rápido (prazo máximo de cinco dias), eficaz e seguro juridicamente, com a opção de solicitação presencialmente no cartório, ou ainda por correio.
+				<strong>Reconhecimento de Firma por Semelhança:</strong>"É o reconhecimento por meio do qual o tabelião afirma que a assinatura que lhe foi apresentada é semelhante àquela que consta de seus arquivos (cartão de assinatura)."
+				<i>(SERVIÇOS NOTARIAIS E DE REGISTRO - Corregedoria Geral da Justiça de São Paulo)</i>
+			</p>
+			<p>
+				<strong><a href="#">CLIQUE AQUI </a>para conhecer a diferença entre documentos sem e com valor econômico, para fins de reconhecimento de firma por semelhança.</strong>
+			</p>
+			<p>
+				<strong>Reconhecimento de Firma por Autenticidade:</strong>
+				"É aquele em que o tabelião afirma que a assinatura é de determinada pessoa, pois o ato foi assinado na sua presença, após a pessoa ter sido identificada por ele. É obrigatório para alguns negócios, como nas transferências de veículos e de pontos por infração de trânsito."
+				<i>(SERVIÇOS NOTARIAIS E DE REGISTRO - Corregedoria Geral da Justiça de São Paulo)</i>
 			</p>
 			<div class="content__title">
-				<strong>Importante</strong>
+				<strong>Importante:</strong>
 			</div>
 			<p>
-				<strong>Art. 1º</strong>
-				Por intermédio da apostila (Apostila de Haia), os portadores de determinados tipos de documentos, poderão validá-los para utilização no exterior, em inúmeros atos de suas vidas, como a obtenção de dupla cidadania. Trata-se de procedimento rápido (prazo máximo de cinco dias), eficaz e seguro juridicamente, com a opção de solicitação presencialmente no cartório, ou ainda por correio.
+				<strong>Item 179, NSCGJ.</strong>
+				É obrigatória a apresentação do original de documento de identificação (Registro Geral; Carteira Nacional de Habilitação, modelo atual, instituído pela Lei n.º 9.503/97; carteira de exercício profissional expedida pelos entes criados por Lei Federal, nos termos da Lei n.º 6.206/75; passaporte, que, na hipótese de estrangeiro, deve estar com o prazo do visto não expirado; Carteira de Trabalho e Previdência Social, modelo atual, informatizado, e carteira de identificação funcional dos Magistrados, membros do Ministério Público e da Defensoria Pública, para abertura da ficha-padrão.
 			</p>
 			<p>
-				Parágrafo único. Para os fins desta Resolução, entende-se como legalização, ou chancela consular, a formalidade pela qual se atesta a autenticidade da assinatura, da função ou do cargo exercido pelo signatário do documento e, quando cabível, a autenticidade do selo ou do carimbo nele aposto.
+				<strong>179.1.</strong>
+				O Tabelião de Notas deve recusar a abertura da ficha quando o documento de identidade contenha caracteres morfológicos geradores de insegurança (documentos replastificados, documentos com foto muito antiga, dentre outros).
 			</p>
 			<p>
-				<strong>Art. 2º</strong>
-				(Resolução n° 228 do CNJ) - As apostilas emitidas por países partes da Convenção da Apostila, inclusive as emitidas em data anterior à vigência da referida Convenção no Brasil, serão aceitas em todo o território nacional a partir de 14 de agosto de 2016, em substituição à legalização diplomática ou consular.
-			</p>
-			<p>
-				<strong>Art. 18</strong>
+				<strong>179.2.</strong>
 				(Resolução n° 228 do CNJ) - Os emolumentos corresponderão, para cada apostila emitida, ao custo de Procuração Sem Valor Declarado, segundo os valores vigentes em cada Estado da Federação.
 			</p>
-			<p>Para maiores informações ligue (11) 4732-9988 ou <a href="/cartorio/RSAHSERVWH903/pag/pag-contato"><span style="color:#0000ff;">Clique aqui</span></a></p>
-		</div>
-		<div style="text-align: center;">
-			<img class="img-fluid" src="<?= base_url('style/'); ?>img/556cbd86-afa9-49c8-965b-5fec2af3d2ed.jpg" alt="whatsapp">
+			<p>
+				<strong>179.3.</strong>
+				Não serão aceitas, como documento de identidade, identificações funcionais ou outras sem validade prevista em lei.
+			</p>
+			<p>
+				<strong>179.4.</strong>
+				Os maiores de 16 anos podem abrir ficha-padrão, devendo o Tabelião de Notas consignar a incapacidade relativa do menor de 18 anos.
+			</p>
+			<p>
+				<strong>179.5.</strong>
+				O estrangeiro não residente no território nacional será identificado à luz de seu passaporte, salvo quando houver tratado internacional permitindo a aceitação do documento civil de identificação de seu país.
+			</p>
+			<p>
+				<strong>Item 182, NSCGJ.</strong>
+				O Tabelião de Notas, expondo as suas razões ao interessado, por escrito apenas se requerido, pode exigir a renovação das assinaturas ou o preenchimento de uma ficha-padrão atual.
+			</p>
+			<p>
+				<strong>Item 189, NSCGJ.</strong>
+				É vedado o reconhecimento de firma em documentos sem data, incompletos ou que contenham, no contexto, espaços em branco.
+			</p>
+
 		</div>
 		<div class="btn-impresso">
 			<button type="button" class="btn-info btn-impresso__input" onClick="window.print()">
