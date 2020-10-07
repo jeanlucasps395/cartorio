@@ -16,16 +16,23 @@ $(document).ready(function () {
 			$("#cpf-input").show();
 			$("#rg-input").hide();
 			$("#name-input").hide();
+			$("#cnpj-input").hide();
 		}
 		if (oS === "rg") {
 			$("#rg-input").show();
 			$("#cpf-input").hide();
 			$("#name-input").hide();
+			$("#cnpj-input").hide();
 		}
 		if (oS === "name") {
 			$("#rg-input").hide();
 			$("#cpf-input").hide();
 			$("#name-input").show();
+		}
+		if (oS === "cnpj") {
+			$("#cnpj-input").show();
+			$("#rg-input").hide();
+			$("#cpf-input").hide();
 		}
 	});
 });

@@ -73,42 +73,63 @@ class Home extends CI_Controller
         $this->load->view('estrutura/header');
         $this->load->view('firmas/reconhecimentoDaFirma');
         $this->load->view('estrutura/footer');
-    }    
+    }
     // FIRMAS
 
-    // CONSULTA DE TÍTULO
-    function consultaTitulo()
+    // NOTAS
+    function atasNotarial()
     {
+        $this->load->view('estrutura/header');
+        $this->load->view('notas/atasNotarial');
+        $this->load->view('estrutura/footer');
     }
 
-    // GERAR PEDIDO DE CANCELAMENTO
-    function pedidoCancelamento()
+    // CARTA DE SENTENÇA
+    function cartaDeSentenca()
     {
+        $this->load->view('estrutura/header');
+        $this->load->view('notas/cartaDeSentenca');
+        $this->load->view('estrutura/footer');
     }
 
-    // BOLETO DE RETIRADA AUTORIZADA
-    function boletoRetirada()
+    // CERTIDÃO
+    function certidao()
     {
+        $this->load->view('estrutura/header');
+        $this->load->view('notas/certidao');
+        $this->load->view('estrutura/footer');
     }
 
-    // BOLETO DE INTIMAÇÃO
-    function boletoIntimacao()
+    // CONSULTA DE ATOS
+    function consultaDeAtos()
     {
+        $this->load->view('estrutura/header');
+        $this->load->view('notas/consultaDeAtos');
+        $this->load->view('estrutura/footer');
     }
 
-    // FORMULÁRIO PARA PROTESTO
-    function formularioProtesto()
+    // DIVORCIO EXTRA JUDICIAL
+    function divorcioExtrajudicial()
     {
+        $this->load->view('estrutura/header');
+        $this->load->view('notas/divorcioExtrajudicial');
+        $this->load->view('estrutura/footer');
     }
 
-    // CONSULTA DE EDITAL
-    function consultaEdital()
+    // Escrituras Públicas - Demais Casos
+    function escriturasPublicasDemaisCasos()
     {
+        $this->load->view('estrutura/header');
+        $this->load->view('notas/escriturasPublicasDemaisCasos');
+        $this->load->view('estrutura/footer');
     }
 
-    // DECLARAÇÃO DE ANUÊNCIA
-    function declaracaoAnuencia()
+    // Escrituras Públicas - Imóveis
+    function escriturasPublicasImoveis()
     {
+        $this->load->view('estrutura/header');
+        $this->load->view('notas/escriturasPublicasImoveis');
+        $this->load->view('estrutura/footer');
     }
 
     // JORNAL DO PROTESTO

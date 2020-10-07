@@ -246,6 +246,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             </div>
         </div>
     </header>
+    <!-- MOBILE -->
     <nav class="cart-menu__mobile d-lg-none">
         <div class="container">
             <div class="cart-menu__mobile--block" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
@@ -748,6 +749,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
 
         </div>
     </nav>
+    <!-- DESKTOP -->
     <nav class="cart-menu__desk d-none d-xl-block" data-spy="affix" data-offset-top="197">
         <div class="container">
             <div class="cart-menu__desk--block">
@@ -804,27 +806,27 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <a href="#">NOTAS</a> <i class="fas fa-angle-down"></i></a>
                         <ul class="menu-close">
                             <li>
-                                <a href="/pag/pag-itens.aspx?id=72" title="Ata Notarial">
+                                <a href="<?= base_url('home/atasNotarial'); ?>" title="Ata Notarial">
                                     <span> Ata Notarial </span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/pag/pag-itens.aspx?id=133" title="Carta de Sentença Notarial">
+                                <a href="<?= base_url('home/cartaDeSentenca'); ?>" title="Carta de Sentença">
                                     <span> Carta de Sentença Notarial </span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/pag/pag-itens.aspx?id=5" title="Certidão">
+                                <a href="<?= base_url('home/certidao'); ?>" title="Certidão">
                                     <span> Certidão </span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/link/consulta/tn-consulta.aspx" title="Consulta de Atos">
+                                <a href="<?= base_url('home/consultaDeAtos'); ?>" title="Consulta de atos">
                                     <span> Consulta de Atos </span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/pag/pag-itens.aspx?id=7" title="Divórcio Extrajudicial">
+                                <a href="<?= base_url('home/divorcioExtrajudicial'); ?>" title="Divórcio Extrajudicial">
                                     <span> Divórcio Extrajudicial </span>
                                 </a>
                             </li>
@@ -839,12 +841,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                 </a>
                             </li>
                             <li>
-                                <a href="/pag/pag-itens.aspx?id=6" title="Escrituras Públicas - Demais Casos">
+                                <a href="<?= base_url('home/escriturasPublicasDemaisCasos'); ?>" title="Escrituras Públicas - Demais Casos">
                                     <span> Escrituras Públicas - Demais Casos </span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/pag/pag-itens.aspx?id=29" title="Escrituras Públicas - Imóveis">
+                                <a href="<?= base_url('home/escriturasPublicasImoveis'); ?>" title="Escrituras Públicas - Imóveis">
                                     <span> Escrituras Públicas - Imóveis </span>
                                 </a>
                             </li>
