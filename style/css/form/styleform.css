@@ -1,0 +1,79 @@
+.btn-p {
+  background-color: #337ab7;
+  padding: 10px;
+  text-decoration: none;
+  outline: none;
+  color: white;
+  border: 1px solid #337ab7;
+}
+.btn-p:hover {
+  background-color: #005d9c;
+}
+
+.btn-w {
+  background-color: white;
+  padding: 10px;
+  text-decoration: none;
+  outline: none;
+  color: black;
+  border: 1px solid #b9b9b9;
+}
+.btn-w:hover {
+  background-color: #ebebeb;
+}
+
+input[type=text] {
+  border: 1px solid #b9b9b9;
+  width: 100%;
+  padding: 5px 15px;
+}
+input[type=text]:hover {
+  border: 1px solid #0069b0;
+}
+input[type=text]:active {
+  border: 1px solid #0069b0;
+}
+
+.form {
+  margin-top: 50px;
+}
+.form h1 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.form span {
+  color: red;
+  margin-left: 5px;
+}
+.form__title {
+  text-align: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form__title h1 {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.form__title:after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #0069b0;
+  position: absolute;
+  top: 34%;
+  left: 0;
+  right: 0;
+  z-index: 0;
+}
+.form__group {
+  font-weight: bold;
+  margin: 15px 0;
+}
+.form__group--message {
+  flex-direction: column;
+}
+
+/*# sourceMappingURL=styleform.css.map */

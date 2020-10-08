@@ -132,9 +132,12 @@ class Home extends CI_Controller
         $this->load->view('estrutura/footer');
     }
 
-    // JORNAL DO PROTESTO
-    function jornalProtesto()
+    // FORM
+    function form()
     {
+        $this->load->view('estrutura/header');
+        $this->load->view('formulario/form');
+        $this->load->view('estrutura/footer');
     }
 
     // CONSULTA DE ESCRITURAS E PROCURAÇÕES
