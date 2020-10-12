@@ -1,0 +1,50 @@
+@import "../color/color";
+@import "../partials/button-principal";
+@import "../partials/button-white";
+@import "../partials/input-text";
+.form {
+	margin-top: 50px;
+
+	h1 {
+		font-size: 20px;
+		font-weight: bold;
+	}
+	span {
+		color: red;
+		margin-left: 5px;
+	}
+
+	&__title {
+		text-align: center;
+		position: relative;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		h1 {
+			background-color: white;
+			position: relative;
+			z-index: 1;
+		}
+		&:after {
+			content: "";
+			display: block;
+			height: 1px;
+			background-color: $cor-escuro;
+			position: absolute;
+			top: 34%;
+			left: 0;
+			right: 0;
+			z-index: 0;
+		}
+	}
+
+	&__group {
+		font-weight: bold;
+		margin: 15px 0;
+
+		&--message {
+			flex-direction: column;
+		}
+	}
+}
