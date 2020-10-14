@@ -2,6 +2,7 @@
 @import "../partials/button-principal";
 @import "../partials/button-white";
 @import "../partials/input-text";
+@import "../partials/button-copy";
 .form {
 	margin-top: 50px;
 
@@ -45,6 +46,10 @@
 
 		&--message {
 			flex-direction: column;
+		}
+
+		&--btn {
+			margin-bottom: 25px;
 		}
 	}
 }

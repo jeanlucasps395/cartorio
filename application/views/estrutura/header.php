@@ -831,12 +831,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                 </a>
                             </li>
                             <li>
-                                <a href="/cartorio/RSAHSERVWH903/modulo/tn-formulario-encaminhamento?acao=escritura" title="Encaminhamento Eletrônico - Escritura">
+                                <a href="<?= base_url('home/form'); ?>" title="Encaminhamento Eletrônico - Escritura">
                                     <span>Encaminhamento Eletrônico - Escritura </span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/cartorio/RSAHSERVWH903/modulo/tn-formulario-encaminhamento?acao=procuracao" title="Encaminhamento Eletrônico - Procuração">
+                                <a href="<?= base_url('home/form'); ?>" title="Encaminhamento Eletrônico - Procuração">
                                     <span> Encaminhamento Eletrônico - Procuração </span>
                                 </a>
                             </li>
@@ -851,22 +851,27 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                 </a>
                             </li>
                             <li>
-                                <a href="/pag/pag-itens.aspx?id=10" title="Inventário Extrajudicial">
+                                <a href="<?= base_url('home/inventarioExtrajudicial'); ?>" title="Inventário Extrajudicial">
                                     <span> Inventário Extrajudicial </span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/pag/pag-itens.aspx?id=23" title="Mediação e Conciliação">
+                                <a href="<?= base_url('home/mediacaoConciliacao'); ?>" title="Mediação e Conciliação">
                                     <span> Mediação e Conciliação </span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/pag/pag-itens.aspx?id=12" title="Procuração Pública">
+                                <a href="<?= base_url('home/pedidoCertidao'); ?>" title="Pedido de Certidão Notas">
+                                    <span>Pedido de Certidão Notas</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="<?= base_url('home/procuracaoPublica'); ?>" title="Procuração Pública">
                                     <span> Procuração Pública </span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/pag/pag-itens.aspx?id=63" title="Testamento Público">
+                                <a href="<?= base_url('home/testamentoPublico'); ?>" title="Testamento Público">
                                     <span> Testamento Público </span>
                                 </a>
                             </li>

@@ -140,27 +140,43 @@ class Home extends CI_Controller
         $this->load->view('estrutura/footer');
     }
 
-    // CONSULTA DE ESCRITURAS E PROCURAÇÕES
-    function consultaEscriturasProcuracoes()
+    // INVENTÁRIO EXTRA JUDICIAL
+    function inventarioExtrajudicial()
     {
+        $this->load->view('estrutura/header');
+        $this->load->view('notas/inventarioExtrajudicial');
+        $this->load->view('estrutura/footer');
     }
 
-
-    // CONSULTA DE ANDAMENTO DE ESCRITURAS
-    function consultaEscritura()
+    // MEDIAÇÃO E CONCILIAÇÃO
+    function mediacaoConciliacao()
     {
+        $this->load->view('estrutura/header');
+        $this->load->view('notas/mediacaoConciliacao');
+        $this->load->view('estrutura/footer');
     }
 
-
-
-    // ENCAMINHAMENTO ELETRÔNICO DE ESCRITURAS E PROCURAÇÕES
-    function encaminhamentoEletronico()
+    // PEDIDO DE CERTIDÃO NOTAS
+    function pedidoCertidao()
     {
+        $this->load->view('estrutura/header');
+        $this->load->view('notas/pedidoCertidao');
+        $this->load->view('estrutura/footer');
     }
 
-
-    // CALCULE SUA ESCRITURA
-    function calculeEscritura()
+    // PROCURAÇÃO PÚBLICA
+    function procuracaoPublica()
     {
+        $this->load->view('estrutura/header');
+        $this->load->view('notas/procuracaoPublica');
+        $this->load->view('estrutura/footer');
+    }
+
+    // TESTAMENTO PUBLICO
+    function testamentoPublico()
+    {
+        $this->load->view('estrutura/header');
+        $this->load->view('notas/testamentoPublico');
+        $this->load->view('estrutura/footer');
     }
 }

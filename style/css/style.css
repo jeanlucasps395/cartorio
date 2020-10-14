@@ -625,15 +625,18 @@
   background-color: #ebebeb;
 }
 
-input[type=text] {
+input[type=text],
+input[type=password] {
   border: 1px solid #b9b9b9;
   width: 100%;
   padding: 5px 15px;
 }
-input[type=text]:hover {
+input[type=text]:hover,
+input[type=password]:hover {
   border: 1px solid #0069b0;
 }
-input[type=text]:active {
+input[type=text]:active,
+input[type=password]:active {
   border: 1px solid #0069b0;
 }
 
@@ -671,7 +674,6 @@ input[type=text]:active {
   display: flex;
 }
 .consulta__block ul li strong {
-  min-width: 30%;
   text-align: end;
   padding-right: 5px;
 }
@@ -680,7 +682,7 @@ input[type=text]:active {
 }
 @media (min-width: 1200px) {
   .consulta__block ul .consulta__search--btn {
-    width: 81%;
+    width: 71%;
   }
 }
 .consulta__block ul .consulta__search--btn .btn-p {
@@ -729,16 +731,32 @@ input[type=text]:active {
   background-color: #ebebeb;
 }
 
-input[type=text] {
+input[type=text],
+input[type=password] {
   border: 1px solid #b9b9b9;
   width: 100%;
   padding: 5px 15px;
 }
-input[type=text]:hover {
+input[type=text]:hover,
+input[type=password]:hover {
   border: 1px solid #0069b0;
 }
-input[type=text]:active {
+input[type=text]:active,
+input[type=password]:active {
   border: 1px solid #0069b0;
+}
+
+.button-copy {
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+  border: 0;
+  padding: 5px;
+  cursor: pointer;
+}
+.button-copy:hover {
+  background-color: #31b0d5;
+  border-color: #269abc;
 }
 
 .form {
@@ -781,6 +799,39 @@ input[type=text]:active {
 }
 .form__group--message {
   flex-direction: column;
+}
+.form__group--btn {
+  margin-bottom: 25px;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .login {
+    flex-direction: row;
+  }
+}
+.login .form__title h1 {
+  font-size: 1rem;
+  padding: 0;
+  font-weight: bold;
+}
+.login__pass {
+  text-align: center;
+  margin: 5px 0;
+}
+@media (min-width: 992px) {
+  .login__pass {
+    display: flex;
+  }
+}
+.login button {
+  margin-bottom: 25px;
+}
+.login .more {
+  margin-top: 6px;
 }
 
 /*# sourceMappingURL=style.css.map */
