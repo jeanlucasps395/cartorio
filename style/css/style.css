@@ -498,6 +498,7 @@
 .consult ul {
   padding: 0;
 }
+
 .cart-footer {
   background-color: #171717;
   color: #9a9a9a;
@@ -832,6 +833,31 @@ input[type=password]:active {
 }
 .login .more {
   margin-top: 6px;
+}
+
+.button-red {
+  color: #fff !important;
+  text-decoration: none !important;
+  background-color: #c00f3c;
+  border: 0;
+  padding: 15px 30px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.button-red:hover {
+  background-color: #910b2d;
+}
+
+.order {
+  margin: 10vw 0;
+}
+.order h4 {
+  margin-bottom: 35px;
+}
+@media (max-width: 991px) {
+  .order__left, .order__right {
+    margin: 10vw 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

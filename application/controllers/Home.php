@@ -179,4 +179,33 @@ class Home extends CI_Controller
         $this->load->view('notas/testamentoPublico');
         $this->load->view('estrutura/footer');
     }
+
+    // PEDIDO DE CERTIDÃO
+    function pedidoDeCertidao()
+    {
+        $this->load->view('estrutura/header');
+        $this->load->view('protesto/pedidoDeCertidao');
+        $this->load->view('estrutura/footer');
+    }
+    // PROTESTO DE TITULO
+    function protestoDeTitulo()
+    {
+        $this->load->view('estrutura/header');
+        $this->load->view('protesto/protestoDeTitulo');
+        $this->load->view('estrutura/footer');
+    }
+    // PROTESTO DE TITULO
+    function titulosPrestaveis()
+    {
+        $this->load->view('estrutura/header');
+        $this->load->view('protesto/titulosPrestaveis');
+        $this->load->view('estrutura/footer');
+    }
+    // CONSULTA DE PROTESTO
+    function consultaDeProtesto()
+    {
+        $this->load->view('estrutura/header');
+        $this->load->view('protesto/consultaDeProtesto');
+        $this->load->view('estrutura/footer');
+    }
 }

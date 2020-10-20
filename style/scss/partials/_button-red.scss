@@ -1,0 +1,13 @@
+.button-red {
+	color: #fff !important;
+	text-decoration: none !important;
+	background-color: $cor-btn-v3;
+	border: 0;
+	padding: 15px 30px;
+	cursor: pointer;
+	margin-top: 15px;
+
+	&:hover {
+		background-color: $cor-btn-houver-v3;
+	}
+}

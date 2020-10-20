@@ -925,29 +925,29 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                 <a href="https://www.jornaldoprotesto.com.br" title="Jornal do Protesto ">
                                     <span> Jornal do Protesto </span>
                                 </a>
-                            </li>
+                            </li>                            
                             <li>
-                                <a href="/pedido/pt/pt-pedido-aviso.aspx" title="Pedido de Certidão Protesto ">
+                                <a href="<?= base_url('home/pedidoDeCertidao'); ?>" title="Pedido de Certidão Protesto ">
                                     <span> Pedido de Certidão Protesto </span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/pag/pag-itens.aspx?id=2" title="Protesto de Títulos">
+                                <a href="<?= base_url('home/protestoDeTitulo'); ?>" title="Protesto de Títulos">
                                     <span> Protesto de Títulos </span>
                                 </a>
                             </li>
-                            <li>
-                                <a href="/pag/pag-itens.aspx?id=3" title="Título Protestáveis">
+                            <li>                            
+                                <a href="<?= base_url('home/titulosPrestaveis'); ?>" title="Título Protestáveis">
                                     <span>Título Protestáveis </span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/link/consulta/pt-consulta.aspx?mod=04" title="Veracidade da Certidão de Cancelamento">
+                                <a href="<?= base_url('home/consultaDeProtesto'); ?>" title="Veracidade da Certidão de Cancelamento">
                                     <span> Veracidade da Certidão de Cancelamento </span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/link/consulta/pt-consulta.aspx?mod=01" title="Veracidade da Certidão de Protesto">
+                                <a href="<?= base_url('home/consultaDeProtesto'); ?>" title="Veracidade da Certidão de Protesto">
                                     <span> Veracidade da Certidão de Protesto </span>
                                 </a>
                             </li>
