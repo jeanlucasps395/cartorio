@@ -180,6 +180,41 @@ class Home extends CI_Controller
         $this->load->view('estrutura/footer');
     }
 
+    // BOLETO DE INTIMIDAÇÃO
+    function boletoDeIntimidacao()
+    {
+        $this->load->view('estrutura/header');
+        $this->load->view('protesto/boletoDeIntimidacao');
+        $this->load->view('estrutura/footer');
+    }
+    // RETIRADA AUTORIZADA
+    function retiradaAutorizada()
+    {
+        $this->load->view('estrutura/header');
+        $this->load->view('protesto/retiradaAutorizada');
+        $this->load->view('estrutura/footer');
+    }
+    // CANCELAMENTO DE PROTESTO
+    function cancelamentoProtesto()
+    {
+        $this->load->view('estrutura/header');
+        $this->load->view('protesto/cancelamentoProtesto');
+        $this->load->view('estrutura/footer');
+    }
+    // DESCONTO LEGAL
+    function descontoLegal()
+    {
+        $this->load->view('estrutura/header');
+        $this->load->view('protesto/descontoLegal');
+        $this->load->view('estrutura/footer');
+    }
+    // FORMULÁRIO DE TÍTULOS
+    function formularioDeTitulo()
+    {
+        $this->load->view('estrutura/header');
+        $this->load->view('protesto/formularioDeTitulo');
+        $this->load->view('estrutura/footer');
+    }
     // PEDIDO DE CERTIDÃO
     function pedidoDeCertidao()
     {
