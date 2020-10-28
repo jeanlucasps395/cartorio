@@ -902,15 +902,15 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                 </a>
                             </li>
                             <li>
-                                <a href="http://www.webprotesto.com.br/Home/Servico?Identificador=5" target="_blank" title="Consulta Título">
+                                <a href="<?= base_url('home/consultarAndamentos'); ?>" title="Consulta Título">
                                     <span class="menu-text"> Consulta Título </span>
                                 </a>
                             </li>
-                            <!-- <li>
-                                <a href="https://www.protestosp.com.br/Home/Index?l=True&amp;amp;canc=False&amp;amp;cc5=False&amp;amp;et1=False&amp;amp;anue=True" title="Declaração de Anuência">
+                            <li>
+                                <a href="https://www.protestosp.com.br/Home/Index?l=True&amp;amp;canc=False&amp;amp;cc5=False&amp;amp;et1=False&amp;amp;anue=True" title="Declaração de Anuência" target="_blank">
                                     <span class="menu-text"> Declaração de Anuência</span>
                                 </a>
-                            </li> -->
+                            </li>
                             <li>
                                 <a href="<?= base_url('home/descontoLegal'); ?>" title="Desconto Legal ME e EPP">
                                     <span class="menu-text"> Desconto Legal ME e EPP </span>
@@ -957,7 +957,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <a href="#">SERVIÇOS</a> <i class="fas fa-angle-down"></i></a>
                         <ul class="menu-close">
                             <li>
-                                <a href="/pag/pag-itens.aspx?id=75" title="Cartório Simplificado">
+                                <a href="<?= base_url('home/cartorioSimplificado'); ?>" title="Cartório Simplificado">
                                     <span> Cartório Simplificado </span>
                                 </a>
                             </li>

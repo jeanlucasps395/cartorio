@@ -860,4 +860,27 @@ input[type=password]:active {
   }
 }
 
+@media (min-width: 768px) {
+  .boleto-block {
+    padding: 0 50px;
+    margin: 0 auto;
+  }
+}
+.boleto-block select {
+  width: 70%;
+  height: 36px;
+}
+@media (min-width: 768px) {
+  .boleto-block select {
+    width: 100%;
+  }
+}
+.boleto-block label {
+  padding-right: 15px;
+  min-width: 100px;
+}
+.boleto-block li {
+  justify-content: center;
+}
+
 /*# sourceMappingURL=style.css.map */

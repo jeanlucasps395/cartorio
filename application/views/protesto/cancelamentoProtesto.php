@@ -16,10 +16,11 @@
     </div>
     <div class="container">
         <div class="consulta ">
-            <h1><strong>Digite o documento do devedor para consultar os títulos protestados.</strong></h1>
+            <h1><strong>Cancelamento de Protesto</strong></h1>
+            <h6><strong>Digite o documento do devedor para consultar os títulos protestados.</strong></h6>
         </div>
         <div class="consulta__block ">
-            <ul class="consulta__search col-12">
+            <ul class="consulta__search boleto-block col-12">
                 <li class="col-12">
                     <label for="">Cartório</label>
                     <select name="" id="">
@@ -28,11 +29,11 @@
                         </option>
                     </select>
                 </li>
-                <li class="col-5">
+                <li class="col-12">
                     <label for="">Protocolo</label>
                     <input type="text" name="" id="">
                 </li>
-                <li class="col-7">
+                <li class="col-12">
                     <label for="">Data</label>
                     <input type="date" name="" id="">
                 </li>
