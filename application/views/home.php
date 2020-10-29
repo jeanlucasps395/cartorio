@@ -44,7 +44,7 @@
                     <ul class="mosaic__block">
                         <li class="mosaic__block--one">
                             <div class="mosaic__block--one-icon">
-                                <img src="style/img/search.svg" alt="Search" width="42" class="img-responsive">
+                                <img src="/cartorio/style/img/search.svg" alt="Search" width="42" class="img-responsive">
                             </div>
                             <div class="mosaic__block--one-title">
                                 CONSULTA DE TÍTULO
@@ -55,7 +55,7 @@
                         </li>
                         <li class="mosaic__block--two">
                             <div class="mosaic__block--one-icon">
-                                <img src="style/img/search.svg" alt="Search" width="42" class="img-responsive">
+                                <img src="/cartorio/style/img/search.svg" alt="Search" width="42" class="img-responsive">
                             </div>
                             <div class="mosaic__block--one-title">
                                 CONSULTA DE TÍTULO
@@ -66,7 +66,7 @@
                         </li>
                         <li class="mosaic__block--one">
                             <div class="mosaic__block--one-icon">
-                                <img src="style/img/search.svg" alt="Search" width="42" class="img-responsive">
+                                <img src="/cartorio/style/img/search.svg" alt="Search" width="42" class="img-responsive">
                             </div>
                             <div class="mosaic__block--one-title">
                                 CONSULTA DE TÍTULO
@@ -77,7 +77,7 @@
                         </li>
                         <li class="mosaic__block--two">
                             <div class="mosaic__block--one-icon">
-                                <img src="style/img/search.svg" alt="Search" width="42" class="img-responsive">
+                                <img src="/cartorio/style/img/search.svg" alt="Search" width="42" class="img-responsive">
                             </div>
                             <div class="mosaic__block--one-title">
                                 CONSULTA DE TÍTULO
@@ -88,7 +88,7 @@
                         </li>
                         <li class="mosaic__block--one">
                             <div class="mosaic__block--one-icon">
-                                <img src="style/img/search.svg" alt="Search" width="42" class="img-responsive">
+                                <img src="/cartorio/style/img/search.svg" alt="Search" width="42" class="img-responsive">
                             </div>
                             <div class="mosaic__block--one-title">
                                 CONSULTA DE TÍTULO
@@ -99,7 +99,7 @@
                         </li>
                         <li class="mosaic__block--two">
                             <div class="mosaic__block--one-icon">
-                                <img src="style/img/search.svg" alt="Search" width="42" class="img-responsive">
+                                <img src="/cartorio/style/img/search.svg" alt="Search" width="42" class="img-responsive">
                             </div>
                             <div class="mosaic__block--one-title">
                                 CONSULTA DE TÍTULO
@@ -110,7 +110,7 @@
                         </li>
                         <li class="mosaic__block--one">
                             <div class="mosaic__block--one-icon">
-                                <img src="style/img/search.svg" alt="Search" width="42" class="img-responsive">
+                                <img src="/cartorio/style/img/search.svg" alt="Search" width="42" class="img-responsive">
                             </div>
                             <div class="mosaic__block--one-title">
                                 CONSULTA DE TÍTULO
@@ -121,7 +121,7 @@
                         </li>
                         <li class="mosaic__block--two">
                             <div class="mosaic__block--one-icon">
-                                <img src="style/img/search.svg" alt="Search" width="42" class="img-responsive">
+                                <img src="/cartorio/style/img/search.svg" alt="Search" width="42" class="img-responsive">
                             </div>
                             <div class="mosaic__block--one-title">
                                 CONSULTA DE TÍTULO
@@ -132,7 +132,7 @@
                         </li>
                         <li class="mosaic__block--one">
                             <div class="mosaic__block--one-icon">
-                                <img src="style/img/search.svg" alt="Search" width="42" class="img-responsive">
+                                <img src="/cartorio/style/img/search.svg" alt="Search" width="42" class="img-responsive">
                             </div>
                             <div class="mosaic__block--one-title">
                                 CONSULTA DE TÍTULO
@@ -143,7 +143,7 @@
                         </li>
                         <li class="mosaic__block--two">
                             <div class="mosaic__block--one-icon">
-                                <img src="style/img/search.svg" alt="Search" width="42" class="img-responsive">
+                                <img src="/cartorio/style/img/search.svg" alt="Search" width="42" class="img-responsive">
                             </div>
                             <div class="mosaic__block--one-title">
                                 CONSULTA DE TÍTULO
@@ -154,7 +154,7 @@
                         </li>
                         <li class="mosaic__block--one">
                             <div class="mosaic__block--one-icon">
-                                <img src="style/img/search.svg" alt="Search" width="42" class="img-responsive">
+                                <img src="/cartorio/style/img/search.svg" alt="Search" width="42" class="img-responsive">
                             </div>
                             <div class="mosaic__block--one-title">
                                 CONSULTA DE TÍTULO
@@ -165,7 +165,7 @@
                         </li>
                         <li class="mosaic__block--two">
                             <div class="mosaic__block--one-icon">
-                                <img src="style/img/search.svg" alt="Search" width="42" class="img-responsive">
+                                <img src="/cartorio/style/img/search.svg" alt="Search" width="42" class="img-responsive">
                             </div>
                             <div class="mosaic__block--one-title">
                                 CONSULTA DE TÍTULO

@@ -962,7 +962,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                 </a>
                             </li>
                             <li>
-                                <a href="/pag/pag-itens.aspx?id=163" title="Cartório na Escola">
+                                <a href="<?= base_url('home/cartorioEscola'); ?>" title="Cartório na Escola">
                                     <span> Cartório na Escola </span>
                                 </a>
                             </li>
