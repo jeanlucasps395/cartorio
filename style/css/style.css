@@ -498,6 +498,23 @@
 .consult ul {
   padding: 0;
 }
+
+.school .school-bg {
+  width: 100%;
+  height: 20px;
+  background-color: #e4e4e4;
+}
+.school ul {
+  padding: 0;
+  list-style: none;
+  justify-content: space-evenly;
+}
+.school span {
+  font-size: 28px;
+  font-weight: bold;
+  color: dimgray;
+}
+
 .cart-footer {
   background-color: #171717;
   color: #9a9a9a;
@@ -625,15 +642,18 @@
   background-color: #ebebeb;
 }
 
-input[type=text] {
+input[type=text],
+input[type=password] {
   border: 1px solid #b9b9b9;
   width: 100%;
   padding: 5px 15px;
 }
-input[type=text]:hover {
+input[type=text]:hover,
+input[type=password]:hover {
   border: 1px solid #0069b0;
 }
-input[type=text]:active {
+input[type=text]:active,
+input[type=password]:active {
   border: 1px solid #0069b0;
 }
 
@@ -671,7 +691,6 @@ input[type=text]:active {
   display: flex;
 }
 .consulta__block ul li strong {
-  min-width: 30%;
   text-align: end;
   padding-right: 5px;
 }
@@ -680,7 +699,7 @@ input[type=text]:active {
 }
 @media (min-width: 1200px) {
   .consulta__block ul .consulta__search--btn {
-    width: 81%;
+    width: 71%;
   }
 }
 .consulta__block ul .consulta__search--btn .btn-p {
@@ -729,16 +748,32 @@ input[type=text]:active {
   background-color: #ebebeb;
 }
 
-input[type=text] {
+input[type=text],
+input[type=password] {
   border: 1px solid #b9b9b9;
   width: 100%;
   padding: 5px 15px;
 }
-input[type=text]:hover {
+input[type=text]:hover,
+input[type=password]:hover {
   border: 1px solid #0069b0;
 }
-input[type=text]:active {
+input[type=text]:active,
+input[type=password]:active {
   border: 1px solid #0069b0;
+}
+
+.button-copy {
+  color: #fff;
+  background-color: #5bc0de;
+  border-color: #46b8da;
+  border: 0;
+  padding: 5px;
+  cursor: pointer;
+}
+.button-copy:hover {
+  background-color: #31b0d5;
+  border-color: #269abc;
 }
 
 .form {
@@ -781,6 +816,87 @@ input[type=text]:active {
 }
 .form__group--message {
   flex-direction: column;
+}
+.form__group--btn {
+  margin-bottom: 25px;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+}
+@media (min-width: 768px) {
+  .login {
+    flex-direction: row;
+  }
+}
+.login .form__title h1 {
+  font-size: 1rem;
+  padding: 0;
+  font-weight: bold;
+}
+.login__pass {
+  text-align: center;
+  margin: 5px 0;
+}
+@media (min-width: 992px) {
+  .login__pass {
+    display: flex;
+  }
+}
+.login button {
+  margin-bottom: 25px;
+}
+.login .more {
+  margin-top: 6px;
+}
+
+.button-red {
+  color: #fff !important;
+  text-decoration: none !important;
+  background-color: #c00f3c;
+  border: 0;
+  padding: 15px 30px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+.button-red:hover {
+  background-color: #910b2d;
+}
+
+.order {
+  margin: 10vw 0;
+}
+.order h4 {
+  margin-bottom: 35px;
+}
+@media (max-width: 991px) {
+  .order__left, .order__right {
+    margin: 10vw 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .boleto-block {
+    padding: 0 50px;
+    margin: 0 auto;
+  }
+}
+.boleto-block select {
+  width: 70%;
+  height: 36px;
+}
+@media (min-width: 768px) {
+  .boleto-block select {
+    width: 100%;
+  }
+}
+.boleto-block label {
+  padding-right: 15px;
+  min-width: 100px;
+}
+.boleto-block li {
+  justify-content: center;
 }
 
 /*# sourceMappingURL=style.css.map */

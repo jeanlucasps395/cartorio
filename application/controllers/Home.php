@@ -140,27 +140,163 @@ class Home extends CI_Controller
         $this->load->view('estrutura/footer');
     }
 
-    // CONSULTA DE ESCRITURAS E PROCURAÇÕES
-    function consultaEscriturasProcuracoes()
+    // INVENTÁRIO EXTRA JUDICIAL
+    function inventarioExtrajudicial()
     {
+        $this->load->view('estrutura/header');
+        $this->load->view('notas/inventarioExtrajudicial');
+        $this->load->view('estrutura/footer');
     }
 
-
-    // CONSULTA DE ANDAMENTO DE ESCRITURAS
-    function consultaEscritura()
+    // MEDIAÇÃO E CONCILIAÇÃO
+    function mediacaoConciliacao()
     {
+        $this->load->view('estrutura/header');
+        $this->load->view('notas/mediacaoConciliacao');
+        $this->load->view('estrutura/footer');
     }
 
-
-
-    // ENCAMINHAMENTO ELETRÔNICO DE ESCRITURAS E PROCURAÇÕES
-    function encaminhamentoEletronico()
+    // PEDIDO DE CERTIDÃO NOTAS
+    function pedidoCertidao()
     {
+        $this->load->view('estrutura/header');
+        $this->load->view('notas/pedidoCertidao');
+        $this->load->view('estrutura/footer');
     }
 
-
-    // CALCULE SUA ESCRITURA
-    function calculeEscritura()
+    // PROCURAÇÃO PÚBLICA
+    function procuracaoPublica()
     {
+        $this->load->view('estrutura/header');
+        $this->load->view('notas/procuracaoPublica');
+        $this->load->view('estrutura/footer');
+    }
+
+    // TESTAMENTO PUBLICO
+    function testamentoPublico()
+    {
+        $this->load->view('estrutura/header');
+        $this->load->view('notas/testamentoPublico');
+        $this->load->view('estrutura/footer');
+    }
+
+    // BOLETO DE INTIMIDAÇÃO
+    function boletoDeIntimidacao()
+    {
+        $this->load->view('estrutura/header');
+        $this->load->view('protesto/boletoDeIntimidacao');
+        $this->load->view('estrutura/footer');
+    }
+    // CONSULTAR ANDAMENTOS
+    function consultarAndamentos()
+    {
+        $this->load->view('estrutura/header');
+        $this->load->view('protesto/consultarAndamentos');
+        $this->load->view('estrutura/footer');
+    }
+    // DESCONTO LEGAL
+    function descontoLegal()
+    {
+        $this->load->view('estrutura/header');
+        $this->load->view('protesto/descontoLegal');
+        $this->load->view('estrutura/footer');
+    }
+    // RETIRADA AUTORIZADA
+    function retiradaAutorizada()
+    {
+        $this->load->view('estrutura/header');
+        $this->load->view('protesto/retiradaAutorizada');
+        $this->load->view('estrutura/footer');
+    }
+    // CANCELAMENTO DE PROTESTO
+    function cancelamentoProtesto()
+    {
+        $this->load->view('estrutura/header');
+        $this->load->view('protesto/cancelamentoProtesto');
+        $this->load->view('estrutura/footer');
+    }
+    // FORMULÁRIO DE TÍTULOS
+    function formularioDeTitulo()
+    {
+        $this->load->view('estrutura/header');
+        $this->load->view('protesto/formularioDeTitulo');
+        $this->load->view('estrutura/footer');
+    }
+    // PEDIDO DE CERTIDÃO
+    function pedidoDeCertidao()
+    {
+        $this->load->view('estrutura/header');
+        $this->load->view('protesto/pedidoDeCertidao');
+        $this->load->view('estrutura/footer');
+    }
+    // PROTESTO DE TITULO
+    function protestoDeTitulo()
+    {
+        $this->load->view('estrutura/header');
+        $this->load->view('protesto/protestoDeTitulo');
+        $this->load->view('estrutura/footer');
+    }
+    // PROTESTO DE TITULO
+    function titulosPrestaveis()
+    {
+        $this->load->view('estrutura/header');
+        $this->load->view('protesto/titulosPrestaveis');
+        $this->load->view('estrutura/footer');
+    }
+    // CONSULTA DE PROTESTO
+    function consultaDeProtesto()
+    {
+        $this->load->view('estrutura/header');
+        $this->load->view('protesto/consultaDeProtesto');
+        $this->load->view('estrutura/footer');
+    }
+    // CARTÓRIO SIMPLIFICADO
+    function cartorioSimplificado()
+    {
+        $this->load->view('estrutura/header');
+        $this->load->view('servicos/cartorioSimplificado');
+        $this->load->view('estrutura/footer');
+    }
+    function cartorioEscola()
+    {
+        $this->load->view('estrutura/header');
+        $this->load->view('servicos/cartorioEscola');
+        $this->load->view('estrutura/footer');
+    }
+    function consultaDePedido()
+    {
+        $this->load->view('estrutura/header');
+        $this->load->view('servicos/consultaDePedido');
+        $this->load->view('estrutura/footer');
+    }
+    function duvidas()
+    {
+        $this->load->view('estrutura/header');
+        $this->load->view('servicos/duvidas');
+        $this->load->view('estrutura/footer');
+    }
+    function linkUteis()
+    {
+        $this->load->view('estrutura/header');
+        $this->load->view('servicos/linkUteis');
+        $this->load->view('estrutura/footer');
+    }
+    function pedidoCertidaoLogin()
+    {
+        $this->load->view('estrutura/header');
+        $this->load->view('servicos/pedidoCertidaoLogin');
+        $this->load->view('estrutura/footer');
+    }
+    function pesquisaSatisfacao()
+    {
+        $this->load->view('estrutura/header');
+        $this->load->view('servicos/pesquisaSatisfacao');
+        $this->load->view('estrutura/footer');
+    }
+    function tabelaDeCustas()
+    {
+        $this->load->view('estrutura/header');
+        $this->load->view('servicos/tabelaDeCustas');
+        $this->load->view('estrutura/footer');
     }
 }

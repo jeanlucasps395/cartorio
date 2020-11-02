@@ -831,12 +831,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                 </a>
                             </li>
                             <li>
-                                <a href="/cartorio/RSAHSERVWH903/modulo/tn-formulario-encaminhamento?acao=escritura" title="Encaminhamento Eletrônico - Escritura">
+                                <a href="<?= base_url('home/form'); ?>" title="Encaminhamento Eletrônico - Escritura">
                                     <span>Encaminhamento Eletrônico - Escritura </span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/cartorio/RSAHSERVWH903/modulo/tn-formulario-encaminhamento?acao=procuracao" title="Encaminhamento Eletrônico - Procuração">
+                                <a href="<?= base_url('home/form'); ?>" title="Encaminhamento Eletrônico - Procuração">
                                     <span> Encaminhamento Eletrônico - Procuração </span>
                                 </a>
                             </li>
@@ -851,22 +851,27 @@ defined('BASEPATH') or exit('No direct script access allowed');
                                 </a>
                             </li>
                             <li>
-                                <a href="/pag/pag-itens.aspx?id=10" title="Inventário Extrajudicial">
+                                <a href="<?= base_url('home/inventarioExtrajudicial'); ?>" title="Inventário Extrajudicial">
                                     <span> Inventário Extrajudicial </span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/pag/pag-itens.aspx?id=23" title="Mediação e Conciliação">
+                                <a href="<?= base_url('home/mediacaoConciliacao'); ?>" title="Mediação e Conciliação">
                                     <span> Mediação e Conciliação </span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/pag/pag-itens.aspx?id=12" title="Procuração Pública">
+                                <a href="<?= base_url('home/pedidoCertidao'); ?>" title="Pedido de Certidão Notas">
+                                    <span>Pedido de Certidão Notas</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="<?= base_url('home/procuracaoPublica'); ?>" title="Procuração Pública">
                                     <span> Procuração Pública </span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/pag/pag-itens.aspx?id=63" title="Testamento Público">
+                                <a href="<?= base_url('home/testamentoPublico'); ?>" title="Testamento Público">
                                     <span> Testamento Público </span>
                                 </a>
                             </li>
@@ -876,73 +881,73 @@ defined('BASEPATH') or exit('No direct script access allowed');
                     <li class="nav-item">
                         <a href="#">PROTESTO</a> <i class="fas fa-angle-down"></i></a>
                         <ul class="menu-close">
-                            <li>
-                                <a href="http://www.webprotesto.com.br/Home/Servico?Identificador=32" title="Boleto de Intimação">
+                            <li class="intimidacao">
+                                <a href="<?= base_url('home/boletoDeIntimidacao'); ?>" title="Boleto de Intimação">
                                     <span> Boleto de Intimação </span>
                                 </a>
                             </li>
-                            <li>
-                                <a href="http://www.webprotesto.com.br/Home/Servico?Identificador=38" title="Boleto de Retirada Autorizada">
+                            <li class="retirada-autorizada">
+                                <a href="<?= base_url('home/retiradaAutorizada'); ?>" title="Boleto de Retirada Autorizada">
                                     <span> Boleto de Retirada Autorizada </span>
                                 </a>
                             </li>
                             <li>
-                                <a href="http://www.webprotesto.com.br/Home/Servico?Identificador=24" title="Cancelamento de Protesto">
+                                <a href="<?= base_url('home/cancelamentoProtesto'); ?>" title="Cancelamento de Protesto">
                                     <span> Cancelamento de Protesto</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.jornaldoprotesto.com.br/Pesquisa/PesquisaHome" title="Consulta Edital">
+                                <a href="https://www.jornaldoprotesto.com.br/Pesquisa/PesquisaHome" target="_blank" title="Consulta Edital">
                                     <span> Consulta Edital </span>
                                 </a>
                             </li>
                             <li>
-                                <a href="http://www.webprotesto.com.br/Home/Servico?Identificador=5" title="Consulta Título">
+                                <a href="<?= base_url('home/consultarAndamentos'); ?>" title="Consulta Título">
                                     <span class="menu-text"> Consulta Título </span>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.protestosp.com.br/Home/Index?l=True&amp;amp;canc=False&amp;amp;cc5=False&amp;amp;et1=False&amp;amp;anue=True" title="Declaração de Anuência">
+                                <a href="https://www.protestosp.com.br/Home/Index?l=True&amp;amp;canc=False&amp;amp;cc5=False&amp;amp;et1=False&amp;amp;anue=True" title="Declaração de Anuência" target="_blank">
                                     <span class="menu-text"> Declaração de Anuência</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/pag/pag-itens.aspx?id=1" title="Desconto Legal ME e EPP">
+                                <a href="<?= base_url('home/descontoLegal'); ?>" title="Desconto Legal ME e EPP">
                                     <span class="menu-text"> Desconto Legal ME e EPP </span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/pag/pag-itens.aspx?id=93" title="Formulário para Protesto">
+                                <a href="<?= base_url('home/formularioDeTitulo'); ?>" title="Formulário para Protesto">
                                     <span> Formulário para Protesto </span>
                                 </a>
                             </li>
                             <li>
-                                <a href="https://www.jornaldoprotesto.com.br" title="Jornal do Protesto ">
+                                <a href="https://www.jornaldoprotesto.com.br" target="_blank" title="Jornal do Protesto ">
                                     <span> Jornal do Protesto </span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/pedido/pt/pt-pedido-aviso.aspx" title="Pedido de Certidão Protesto ">
+                                <a href="<?= base_url('home/pedidoDeCertidao'); ?>" title="Pedido de Certidão Protesto ">
                                     <span> Pedido de Certidão Protesto </span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/pag/pag-itens.aspx?id=2" title="Protesto de Títulos">
+                                <a href="<?= base_url('home/protestoDeTitulo'); ?>" title="Protesto de Títulos">
                                     <span> Protesto de Títulos </span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/pag/pag-itens.aspx?id=3" title="Título Protestáveis">
+                                <a href="<?= base_url('home/titulosPrestaveis'); ?>" title="Título Protestáveis">
                                     <span>Título Protestáveis </span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/link/consulta/pt-consulta.aspx?mod=04" title="Veracidade da Certidão de Cancelamento">
+                                <a href="<?= base_url('home/consultaDeProtesto'); ?>" title="Veracidade da Certidão de Cancelamento">
                                     <span> Veracidade da Certidão de Cancelamento </span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/link/consulta/pt-consulta.aspx?mod=01" title="Veracidade da Certidão de Protesto">
+                                <a href="<?= base_url('home/consultaDeProtesto'); ?>" title="Veracidade da Certidão de Protesto">
                                     <span> Veracidade da Certidão de Protesto </span>
                                 </a>
                             </li>
@@ -952,12 +957,12 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <a href="#">SERVIÇOS</a> <i class="fas fa-angle-down"></i></a>
                         <ul class="menu-close">
                             <li>
-                                <a href="/pag/pag-itens.aspx?id=75" title="Cartório Simplificado">
+                                <a href="<?= base_url('home/cartorioSimplificado'); ?>" title="Cartório Simplificado">
                                     <span> Cartório Simplificado </span>
                                 </a>
                             </li>
                             <li>
-                                <a href="/pag/pag-itens.aspx?id=163" title="Cartório na Escola">
+                                <a href="<?= base_url('home/cartorioEscola'); ?>" title="Cartório na Escola">
                                     <span> Cartório na Escola </span>
                                 </a>
                             </li>
