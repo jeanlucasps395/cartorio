@@ -1,5 +1,5 @@
 .cart-menu__desk {
-	background: #393939;
+	background: $cor-escuro;
 	position: sticky;
 	top: 0;
 	z-index: 2;
@@ -30,7 +30,7 @@
 					top: 0;
 					left: 50%;
 					right: 50%;
-					background-color: $cor-escuro;
+					background-color: $cor-claro-v3;
 					transition: all 0.5s;
 				}
 

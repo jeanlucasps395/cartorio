@@ -3,15 +3,15 @@
 }
 
 .btn-p {
-  background-color: #337ab7;
+  background-color: #AB9264;
   padding: 10px;
   text-decoration: none;
   outline: none;
   color: white;
-  border: 1px solid #337ab7;
+  border: 1px solid #AB9264;
 }
 .btn-p:hover {
-  background-color: #005d9c;
+  background-color: #cfba93;
 }
 
 .mosaic__block {
@@ -32,25 +32,25 @@
   text-align: center;
 }
 .mosaic__block--one {
-  background-color: #0069b0;
+  background-color: #003552;
   width: 100%;
   padding: 25px 17px;
 }
 .mosaic__block--one:hover {
-  background-color: #00548c !important;
+  background-color: #015d85 !important;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .mosaic__block--one {
     flex-basis: 50%;
   }
   .mosaic__block--one:nth-child(3) {
-    background-color: #005d9c;
+    background-color: #004E6F;
   }
   .mosaic__block--one:nth-child(7) {
-    background-color: #005d9c;
+    background-color: #004E6F;
   }
   .mosaic__block--one:nth-child(11) {
-    background-color: #005d9c;
+    background-color: #004E6F;
   }
 }
 @media (min-width: 992px) {
@@ -63,10 +63,10 @@
     flex-basis: 25%;
   }
   .mosaic__block--one:nth-child(5) {
-    background-color: #005d9c;
+    background-color: #004E6F;
   }
   .mosaic__block--one:nth-child(7) {
-    background-color: #005d9c;
+    background-color: #004E6F;
   }
 }
 .mosaic__block--one-icon {
@@ -83,25 +83,25 @@
   text-decoration: none;
 }
 .mosaic__block--two {
-  background-color: #005d9c;
+  background-color: #004E6F;
   width: 100%;
   padding: 25px 17px;
 }
 .mosaic__block--two:hover {
-  background-color: #00548c !important;
+  background-color: #015d85 !important;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .mosaic__block--two {
     flex-basis: 50%;
   }
   .mosaic__block--two:nth-child(4) {
-    background-color: #0069b0;
+    background-color: #003552;
   }
   .mosaic__block--two:nth-child(8) {
-    background-color: #0069b0;
+    background-color: #003552;
   }
   .mosaic__block--two:nth-child(12) {
-    background-color: #0069b0;
+    background-color: #003552;
   }
 }
 @media (min-width: 992px) {
@@ -114,10 +114,10 @@
     flex-basis: 25%;
   }
   .mosaic__block--two:nth-child(6) {
-    background-color: #0069b0;
+    background-color: #003552;
   }
   .mosaic__block--two:nth-child(8) {
-    background-color: #0069b0;
+    background-color: #003552;
   }
 }
 

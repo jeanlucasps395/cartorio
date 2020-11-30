@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../scss/footer/cart-footer.scss","../../scss/color/_color.scss"],"names":[],"mappings":"AAAA;EACC,kBCGY;EDFZ;EACA;;AAEA;EACC;;AAIA;EACC;;AAIF;EACC;EACA;;AACA;EACC;;AAIF;EACC,YCnBa;EDoBb;EACA;EACA;EACA","file":"footer.css"}
+{"version":3,"sourceRoot":"","sources":["../../scss/footer/cart-footer.scss","../../scss/color/_color.scss"],"names":[],"mappings":"AAAA;EACC,kBCIY;EDHZ;EACA;;AAEA;EACC;;AAIA;EACC;;AAIF;EACC;EACA;;AACA;EACC;;AAIF;EACC,YClBa;EDmBb;EACA;EACA;EACA","file":"footer.css"}
