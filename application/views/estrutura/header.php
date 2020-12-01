@@ -218,7 +218,7 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <div class="container">
                 <ul>
                     <li>
-                        <img src="<?= base_url('style/'); ?>img/logo-ee04a9c6-fb2b-4e25-939a-83bcd7d4537b.png" alt="logo">
+                        <img src="<?= base_url('style/'); ?>img/logo.png" alt="logo">
                     </li>
                     <li class="d-none d-md-flex">
                         <i class="fa fa-envelope custom"></i>
