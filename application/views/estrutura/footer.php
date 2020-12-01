@@ -3,7 +3,7 @@
         <div class="container">
             <div class="cart-footer__block d-md-flex d-block">
                 <div class="col-12 col-md-6">
-                    <img src="<?= base_url('style/'); ?>img/logo-demo-rodape.png" height="60" alt="Tabelião de Notas e de Protestos de Letras e Títulos de Itaquaquecetuba / SP">
+                    <img src="<?= base_url('style/'); ?>img/logo-footer.png" height="60" alt="Tabelião de Notas e de Protestos de Letras e Títulos de Itaquaquecetuba / SP">
 
                     <hr>
                     <small>Tabelião de Notas e de Protestos de Letras e Títulos de Itaquaquecetuba / SP</small>
