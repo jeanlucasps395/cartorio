@@ -897,4 +897,19 @@ input[type=password]:active {
   justify-content: center;
 }
 
+.grid-img {
+  display: flex;
+  justify-content: end;
+  padding: 0 100px;
+  flex-wrap: wrap;
+}
+.grid-img__person {
+  display: flex;
+  flex-direction: column;
+  padding: 24px;
+}
+.grid-img__person img {
+  border-radius: 50px;
+}
+
 /*# sourceMappingURL=style.css.map */

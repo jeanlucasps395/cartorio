@@ -6,13 +6,13 @@
                     <img src="<?= base_url('style/'); ?>img/logo-demo-rodape.png" height="60" alt="Tabelião de Notas e de Protestos de Letras e Títulos de Itaquaquecetuba / SP">
 
                     <hr>
-                    <small>Tabelião de Notas e de Protestos de Letras e Títulos de Itaquaquecetuba / SP</small>
+                    <small>Tabelião de Notas e de Protestos de Letras e Títulos de Arujá / SP</small>
                     <address>
-                        <label>Localização: Itaquaquecetuba / SP - Cep: 08573-020 </label>
-                        <label>Endereço: Rua: Uberlândia, Nº 240 - Vila Virginia </label>
+                        <label>Localização: Arujá / SP - CEP 07400-610</label>
+                        <label>Endereço: Av. João Manoel, 600 - 2º andar - Centro</label>
                     </address>
-                    <label>E-mail: <a href="mailto:#">contato@delguercio.com.br</a></label>
-                    <label>Telefone: WhatsApp: (11) 4732-9988</label>
+                    <label>E-mail: <a href="mailto:#">cartorioalbinoneves@gmail.com</a></label>
+                    <label>Telefone: (11) 4655-4345 e (11) 4652-1129</label>
 
                     <div class="cart-footer__social d-flex">
                         <label>Rede social</label>

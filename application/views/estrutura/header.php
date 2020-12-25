@@ -231,14 +231,14 @@ defined('BASEPATH') or exit('No direct script access allowed');
                         <i class="fa fa-phone custom"></i>
                         <div class="logo-header__block">
                             <strong>TELEFONE</strong>
-                            <a href="#">WhatsApp: (11) 4732-9988</a>
+                            <a href="#">(11) 4655-4345 e (11) 4652-1129</a>
                         </div>
                     </li>
                     <li class="d-none d-md-flex">
                         <i class="fa fa-home custom"></i>
                         <div class="logo-header__block">
-                            <strong>ITAQUAQUECETUBA / SP</strong>
-                            <a href="#">Rua: teste, Nº 240 - Teste</a>
+                            <strong>Arujá/SP CEP 07400-610</strong>
+                            <a href="#">Av. João Manoel, 600 - 2º andar - Centro</a>
                         </div>
                     </li>
 
