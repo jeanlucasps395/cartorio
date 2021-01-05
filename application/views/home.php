@@ -72,28 +72,6 @@
                                 CONSULTA DE TÍTULO
                             </div>
                             <div class="mosaic__block--one-btn">
-                                <a class="btn-p"href="">Consultar</a>
-                            </div>
-                        </li>
-                        <li class="mosaic__block--two">
-                            <div class="mosaic__block--one-icon">
-                                <img src="/cartorio/style/img/search.svg" alt="Search" width="42" class="img-responsive">
-                            </div>
-                            <div class="mosaic__block--one-title">
-                                CONSULTA DE TÍTULO
-                            </div>
-                            <div class="mosaic__block--one-btn">
-                                <a class="btn-p" href="">Consultar</a>
-                            </div>
-                        </li>
-                        <li class="mosaic__block--one">
-                            <div class="mosaic__block--one-icon">
-                                <img src="/cartorio/style/img/search.svg" alt="Search" width="42" class="img-responsive">
-                            </div>
-                            <div class="mosaic__block--one-title">
-                                CONSULTA DE TÍTULO
-                            </div>
-                            <div class="mosaic__block--one-btn">
                                 <a class="btn-p" href="">Consultar</a>
                             </div>
                         </li>
@@ -160,7 +138,29 @@
                                 CONSULTA DE TÍTULO
                             </div>
                             <div class="mosaic__block--one-btn">
-                                <a class="btn-p"href="">Consultar</a>
+                                <a class="btn-p" href="">Consultar</a>
+                            </div>
+                        </li>
+                        <li class="mosaic__block--two">
+                            <div class="mosaic__block--one-icon">
+                                <img src="/cartorio/style/img/search.svg" alt="Search" width="42" class="img-responsive">
+                            </div>
+                            <div class="mosaic__block--one-title">
+                                CONSULTA DE TÍTULO
+                            </div>
+                            <div class="mosaic__block--one-btn">
+                                <a class="btn-p" href="">Consultar</a>
+                            </div>
+                        </li>
+                        <li class="mosaic__block--one">
+                            <div class="mosaic__block--one-icon">
+                                <img src="/cartorio/style/img/search.svg" alt="Search" width="42" class="img-responsive">
+                            </div>
+                            <div class="mosaic__block--one-title">
+                                CONSULTA DE TÍTULO
+                            </div>
+                            <div class="mosaic__block--one-btn">
+                                <a class="btn-p" href="">Consultar</a>
                             </div>
                         </li>
                         <li class="mosaic__block--two">
@@ -179,7 +179,42 @@
             </div>
         </div>
     </section>
-
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="grid-img">
+                    <div class="grid-img__person">
+                        <img src="http://placehold.it/100x100" alt="">
+                        <small><i>Nome da Pessoa</i></small>
+                    </div>
+                    <div class="grid-img__person">
+                        <img src="http://placehold.it/100x100" alt="">
+                        <small><i>Nome da Pessoa</i></small>
+                    </div>
+                    <div class="grid-img__person">
+                        <img src="http://placehold.it/100x100" alt="">
+                        <small><i>Nome da Pessoa</i></small>
+                    </div>
+                    <div class="grid-img__person">
+                        <img src="http://placehold.it/100x100" alt="">
+                        <small><i>Nome da Pessoa</i></small>
+                    </div>
+                    <div class="grid-img__person">
+                        <img src="http://placehold.it/100x100" alt="">
+                        <small><i>Nome da Pessoa</i></small>
+                    </div>
+                    <div class="grid-img__person">
+                        <img src="http://placehold.it/100x100" alt="">
+                        <small><i>Nome da Pessoa</i></small>
+                    </div>
+                    <div class="grid-img__person">
+                        <img src="http://placehold.it/100x100" alt="">
+                        <small><i>Nome da Pessoa</i></small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <section>
         <div class="faq-block">
             <div class="container d-flex">
