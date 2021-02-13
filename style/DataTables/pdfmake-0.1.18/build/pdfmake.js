@@ -15710,7 +15710,7 @@
 	      }
 
 	      if(this.rowSpanData[i].rowSpan > 0) {
-	        this.rowSpanData[i].rowSpan--;
+	        this.rowSpanData[i].rowSpmm--;
 	      }
 	    }
 

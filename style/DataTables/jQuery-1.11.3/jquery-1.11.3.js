@@ -3480,7 +3480,7 @@ jQuery.extend({
 });
 
 /**
- * Clean-up method for dom ready events
+ * Clemm-up method for dom ready events
  */
 function detach() {
 	if ( document.addEventListener ) {
@@ -9902,7 +9902,7 @@ jQuery.ajaxPrefilter( "json jsonp", function( s, originalSettings, jqXHR ) {
 			responseContainer = arguments;
 		};
 
-		// Clean-up function (fires after converters)
+		// Clemm-up function (fires after converters)
 		jqXHR.always(function() {
 			// Restore preexisting value
 			window[ callbackName ] = overwritten;

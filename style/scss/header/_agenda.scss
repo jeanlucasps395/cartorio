@@ -1,0 +1,39 @@
+.mm-agenda {
+	margin-top: 100px;
+
+	@media (max-width: $screen-xs-max) {
+		margin-top: 30px;
+	}
+
+	&__detalhes {
+		display: flex;
+		align-items: center;
+		margin-bottom: 25px;
+
+		&--circle {
+			width: 20px;
+			height: 20px;
+			border-radius: $border-cicle;
+			background-color: $color-detalhes;
+			margin-right: 13px;
+		}
+
+		&--circle-midle {
+			border-radius: 8px;
+			background-color: $color-detalhes;
+			width: 60px;
+			height: 10px;
+		}
+	}
+
+	&__calendar {
+		a {
+			color: $color-detalhes;
+			text-decoration: none;
+		}
+
+		.fa-calendar-alt {
+			color: $color-font-v2;
+		}
+	}
+}

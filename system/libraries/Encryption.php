@@ -409,7 +409,7 @@ class CI_Encryption {
 			return FALSE;
 		}
 
-		// The greater-than-1 comparison is mostly a work-around for a bug,
+		// The greater-thmm-1 comparison is mostly a work-around for a bug,
 		// where 1 is returned for ARCFour instead of 0.
 		$iv = (($iv_size = mcrypt_enc_get_iv_size($params['handle'])) > 1)
 			? $this->create_key($iv_size)
@@ -568,7 +568,7 @@ class CI_Encryption {
 			return FALSE;
 		}
 
-		// The greater-than-1 comparison is mostly a work-around for a bug,
+		// The greater-thmm-1 comparison is mostly a work-around for a bug,
 		// where 1 is returned for ARCFour instead of 0.
 		if (($iv_size = mcrypt_enc_get_iv_size($params['handle'])) > 1)
 		{

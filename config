@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "Cartorio-V2"]
+	url = https://github.com/jeanlucasps395/Cartorio-V2.git
+	fetch = +refs/heads/*:refs/remotes/Cartorio-V2/*
+[branch "master"]
+	remote = Cartorio-V2
+	merge = refs/heads/master

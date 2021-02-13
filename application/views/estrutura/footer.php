@@ -1,63 +1,118 @@
-<footer>
-    <div class="cart-footer">
-        <div class="container">
-            <div class="cart-footer__block d-md-flex d-block">
-                <div class="col-12 col-md-6">
-                    <img src="<?= base_url('style/'); ?>img/logo-demo-rodape.png" height="60" alt="Tabelião de Notas e de Protestos de Letras e Títulos de Itaquaquecetuba / SP">
+ <section>
+     <div class="mm-background">
+         <div class="container">
+             <div class="row">
+                 <div class="mm-background__block">
+                     <div class="mm-background__form">
+                         <form action="#">
+                             <label for="" class="name">
+                                 Nome
+                             </label>
+                             <input type="text" name="" id="" placeholder="Quem devemos procurar?">
+                             <label for="" class="email">
+                                 Email
+                             </label>
+                             <input type="email" name="" id="" placeholder="nos diga seu melhor email">
+                             <label for="" class="tel">
+                                 Telefone
+                             </label>
+                             <input type="tel" name="" id="" placeholder="Nos diga seu telefone">
+                             <label for="">Mensagem</label>
+                             <textarea style="resize: none" name="" id="" cols="30" rows="10" placeholder="Fale um pouco mais aqui..."></textarea>
+                             <div class="mm-background__form-block">
+                                 <button class="mm-background__form-block--btn" type="submit">Enviar
+                                     Mensagem</button>
+                             </div>
+                         </form>
+                     </div>
+                     <div class="mm-background__content">
+                         <div class="mm-background__line">
+                         </div>
+                         <div class="mm-background__text">
+                             <h1>
+                                 Diga<br>
+                                 <strong>Olá!</strong>
+                                 <p>Entre em contato para<br>
+                                     mais informações</p>
+                             </h1>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
 
-                    <hr>
-                    <small>Tabelião de Notas e de Protestos de Letras e Títulos de Arujá / SP</small>
-                    <address>
-                        <label>Localização: Arujá / SP - CEP 07400-610</label>
-                        <label>Endereço: Av. João Manoel, 600 - 2º andar - Centro</label>
-                    </address>
-                    <label>E-mail: <a href="mailto:#">cartorioalbinoneves@gmail.com</a></label>
-                    <label>Telefone: (11) 4655-4345 e (11) 4652-1129</label>
+ <section>
+     <div class="mm-social-media">
+         <i class="fab fa-instagram"></i>
+         <i class="fab fa-facebook-f"></i>
+         <i class="fab fa-twitter"></i>
+     </div>
+ </section>
+ </main>
 
-                    <div class="cart-footer__social d-flex">
-                        <label>Rede social</label>
-                        <ul class="d-flex">
-                            <li>
-                                <a href="">
-                                    <img src="<?= base_url('style/'); ?>img/facebook.png" alt="facebook">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <img src="<?= base_url('style/'); ?>img/youtube.png" alt="youtube">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <img src="<?= base_url('style/'); ?>img/instagram.png" alt="instagram">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <img src="<?= base_url('style/'); ?>img/linkedin.png" alt="linkedin">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <img src="<?= base_url('style/'); ?>img/whatsapp.png" alt="whatsapp">
-                                </a>
-                            </li>
-                            <li>
-                                <a href="">
-                                    <img src="<?= base_url('style/'); ?>img/whatsapp.png" alt="whatsapp">
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3660.5519747714957!2d-46.4203887489061!3d-23.44054616295323!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce62736e3e5215%3A0x78433beec145312f!2sR.%20Branquinha%20-%20Jardim%20Silvestre%2C%20Guarulhos%20-%20SP%2C%2007243-180!5e0!3m2!1spt-BR!2sbr!4v1600905008396!5m2!1spt-BR!2sbr" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                </div>
-            </div>
-        </div>
-        <div class="cart-footer-end">
-            © 2020 Todos os direitos reservados.
-        </div>
-    </div>
 
-</footer>
+ <!-- <div class="overlay"></div> -->
+
+
+ <footer>
+     <div class="container">
+         <div class="mm-footer">
+             <div class="col-12 col-md-5">
+                 <ul>
+
+                     <li><img class="img-fluid" src="<?= base_url('style/'); ?>img/logo-footer.png" alt="logo"></li>
+
+                     <div class="mm-footer__block">
+                         <li class="mm-footer__block--title">Receber notícias por email</li>
+                         <li class="mm-footer__block--btn">
+                             <input placeholder="Digite seu email aqui" type="email" name="" id="">
+                             <button>ok</button>
+                         </li>
+                     </div>
+                 </ul>
+             </div>
+             <div class="col-12 col-md">
+                 <ul class="mm-footer__block-two">
+                     <li>
+                         <a href="">
+                             Artigos</li>
+                     </a>
+                     <li>
+                         <a href="">
+                             Marcas
+                         </a>
+                     </li>
+                     <li>
+                         <a href="">
+                             Contato
+                         </a>
+                     </li>
+                     <li>
+                         <a href="">
+                             Precisa de ajuda?
+                         </a>
+                     </li>
+                     <li>
+                         <a href="">
+                             Veículos
+                         </a>
+                     </li>
+                 </ul>
+             </div>
+             <div class="col-12 col-md-5">
+                 <ul class="mm-footer__block--info">
+                     <li>Rua para testes 123, Arujá - São Paulo 07425-000</li>
+                     <li>(11) 90000 - 0000</li>
+                     <li>Cartorio-V2@m3otors.com.br</li>
+                     <li>Segunda a sexta das 10h00 as 19h00</li>
+                 </ul>
+             </div>
+         </div>
+     </div>
+     <div class="mm-block-end">
+         © 2020 Todos os direitos reservados.
+     </div>
+
+ </footer>

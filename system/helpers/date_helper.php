@@ -376,14 +376,14 @@ if ( ! function_exists('mysql_to_unix'))
 	/**
 	 * Converts a MySQL Timestamp to Unix
 	 *
-	 * @param	int	MySQL timestamp YYYY-MM-DD HH:MM:SS
+	 * @param	int	MySQL timestamp YYYY-mm-DD HH:MM:SS
 	 * @return	int	Unix timstamp
 	 */
 	function mysql_to_unix($time = '')
 	{
 		// We'll remove certain characters for backward compatibility
 		// since the formatting changed with MySQL 4.1
-		// YYYY-MM-DD HH:MM:SS
+		// YYYY-mm-DD HH:MM:SS
 
 		$time = str_replace(array('-', ':', ' '), '', $time);
 
@@ -535,7 +535,7 @@ if ( ! function_exists('nice_date'))
 			return DateTime::createFromFormat('Ymd', $bad_date)->format($format);
 		}
 
-		// Date Like: MM-DD-YYYY __or__ M-D-YYYY (or anything in between)
+		// Date Like: mm-DD-YYYY __or__ M-D-YYYY (or anything in between)
 		if (preg_match('/^(\d{1,2})-(\d{1,2})-(\d{4})$/i', $bad_date, $matches))
 		{
 			return date($format, strtotime($matches[3].'-'.$matches[1].'-'.$matches[2]));

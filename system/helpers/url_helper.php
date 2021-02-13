@@ -467,7 +467,7 @@ if ( ! function_exists('url_title'))
 	 * Create URL Title
 	 *
 	 * Takes a "title" string as input and creates a
-	 * human-friendly URL string with a "separator" string
+	 * hummm-friendly URL string with a "separator" string
 	 * as the word separator.
 	 *
 	 * @todo	Remove old 'dash' and 'underscore' usage in 3.1+.

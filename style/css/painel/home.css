@@ -1,331 +1,269 @@
-body{
-	padding: 0 !important;
-	margin: 0 !important;
-}
-.txR{
-	text-align: right;
-}
-.txC{
-	text-align: center;
-}
-.p0{
-	padding: 0 !important;
-}
-.bgBranco{
-	background: #AA51FF;
-	color: #fff;
+html, body{
 	height: 100%;
-	position: relative;
-	width: 100%; 
-	box-shadow: 4px 0px 2px rgb(0,0,0,0.2);
-}
-
-
-button{
-	cursor: pointer;
-}
-button:focus{
-	outline: none;
-}
-
-@media screen and (min-width: 991px){
-	.bgBranco{
-		padding-bottom: 500px;
-	}
-}
-
-
-body::-webkit-scrollbar {
-  width: 0em;
-}
- 
-body::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-}
- 
-body::-webkit-scrollbar-thumb {
-  background-color: darkgrey;
-  outline: 1px solid slategrey;
-}
-
-
-.backgroundHome{
 	width: 100%;
-	height: 100%;
-	/*background-image: linear-gradient(-90deg, #EDC1D4, #BA97ED);*/
-	background: #fff;
+}
+.bg-painel{
+	background: url('../../img/painel-bg.png') center center no-repeat;
+	background-size: cover;
+	padding: 80px 0 150px;
+	background-position-y: -150px; 
 }
 
-.dashboard__logo{
-	font-family: 'montserrat';
-	font-weight: bolder;
-	font-size: 22px;
-	padding-top: 50px;
+.bg-painel h1{
 	text-align: center;
-	margin-bottom: 50px;
-}
-.dashboard__titulos-menu{
-	font-size: 20px;
-	margin-bottom: 25px;
-	margin-top: 35px;
-	padding-left: 10px;
-}
-.dashboard__itens{
-	font-size: 15px;
-	padding-left: 30px;
-	margin-top: 20px;
-	cursor: pointer;
-	color: #fff;
-}
-.dashboard__itens i{
-	padding-right: 15px;
-	color: #fff;
-}
-.dashboard__itens:hover{
-	color: #ccc;
-}
-
-
-.dashboard__centerBlock{
-	/*border-left: 0.5px solid #999; */
-	border-right: 0.5px solid #fff; 
-}
-
-.dashboard__centerBlock--header{
-	margin-top: 50px;
-}
-
-.dashboardheader__titulo{
-	font-size: 25px;
-}
-.dashboardheader__button{
-	background: #AA51FF;
-	border: none;
-	border-radius: 30px;
-	color: #fff;
-	font-size: 18px;
-	font-weight: bolder;
-	width: 120px;
-	padding: 10px 0; 
-	box-shadow: 0px 4px 2px rgb(0,0,0,0.2);
-}
-
-
-/*dashboard--ultimaTransasao*/
-.dashboard__ultimaTransasao{
-	margin-top: 30px;
-}
-
-.dashboard__ultimaTransasao-bloco{
-	background: #CC66EE;
-	width: 100%;
-	/*padding: 0px 0 20px 0;*/
-	border-radius: 20px; 
-	z-index: 3;
-	margin-bottom: -65px;
-	position: relative;
-}
-
-.dashboard__ultimaTransasao-bloco--sombra1{
-	background: #D38FE5;
-	width: 90%;
-	padding: 45px 0;
-	border-radius: 20px; 
-	z-index: 2;
-	margin: 0 auto;
-	margin-bottom: -65px;
-	position: relative;
-	opacity: .80;
-}
-.dashboard__ultimaTransasao-bloco--sombra2{
-	background: #D097E4;
-	width: 80%;
-	padding: 45px 0;
-	border-radius: 20px; 
-	z-index: 1;
-	margin: 0 auto;
-	opacity: .60;
-}
-
-.dashboard__pedidoText{
-	margin-bottom: 5px;
-	color: #666;
-	font-size: 14px;
-}
-
-.dashboard__pedidoText--ultimoPedido{
-	margin-bottom: 5px;
-	color: #fff;
-	font-size: 14px;
-}
-
-.dashboard__pedidoTitulo{
-	font-size: 20px;
-	margin-top: 20px;
-	color: #292929;
-	margin-bottom: 10px; 
-}
-.dashboard__ultimaTransasao-bloco{
-	padding-bottom: 20px;
-}
-
-.dashboard__ultimaTransasao-bloco--pedidos{
-	background: #fff;
-	padding-bottom: 0;
-	margin-bottom: 20px;
-	box-shadow: 0px 5px 8px rgb(0,0,0,0.1);
-}
-.dashboard__iconPedido{
-	width: 90px;
-	height: 90px;
-	margin: 0 auto;
-	margin-top: 25px;
-	background: #fff;
-	border-radius: 50%;
-	box-shadow: 0px 4px 2px rgb(0,0,0,0.2);
-
-	text-align: center;
-}
-
-.dashboard__iconPedido i{
-	font-size: 35px;
-	margin-top: 30px;
-	color:  #AA51FF;
-}
-
-.dashboard__pedidoValorBLock{
-	background: #CC66EE;
-	padding: 20px;
-	border-radius: 0 20px 20px 0;
-	height: 100%;
-	height: 140px;
-	margin-right: -2px;
-
-}
-.dashboard__ultimaTransasao--cifrao{
-	font-size: 12px;
-	font-weight: normal;
-}
-.dashboard__ultimaTransasao--valor{
 	color: #fff;
 	font-weight: bolder;
-	margin-top: 30px;
-	font-size: 20px;
-	margin-top: 0;
-}
-.dashboard__ultimaTransasao--buttonAbrir{
-	color: #fff;
-	background: #AA51FF;
-	border: none;
-	border-radius: 30px;
-	color: #fff;
-	font-size: 16px;
-	font-weight: normal;
-	width: 100%;
-	padding: 10px 0; 
-	box-shadow: 0px 4px 2px rgb(0,0,0,0.2);
+	font-size: 50px;
+	font-family: 'Montserrat', sans-serif;
 }
 
-
-
-.aprovado{
-	color: #3F9120;
+.navbar{
+	padding: .8rem 1rem !important;
+	background: #111 !important;
+	color: #fff !important;
 }
-.analise{
-	color: #EEC40E;
+.navbar-brand{
+	color: #fff !important;
 }
-.cancelado{
-	color: #F64F49;
+.navbar-brand span{
+	color: #F3123C !important;
 }
 
 
-
-/*transações do mes*/
-
-
-.blocoValor__bloco{
-	width: 80%;
-	margin: 0 auto;
-
+/*Forms*/
+.formDash{
 	background: #fff;
-	border-radius: 15px;
-	padding: 20px 0;
-	text-align: center;
-	font-size: 20px;
-	color: #CC66EE;
-	box-shadow: 0px 4px 2px rgb(0,0,0,0.2);
-	font-weight: bolder;
-	margin-top: 25px;
-
+	border-radius: 10px;
+	box-shadow: 4px 4px 4px rgb(0,0,0,0.3);
+	padding: 30px;
+	width: 600px;
+	margin: 0 auto;
+	margin-bottom: 40px;
 }
-.blocoValor__data{
-	font-size: 15px;
-	margin-top: 10px;
-	margin-bottom: 25px;
-	text-align: center;
+.formCadastro{
+	width: 800px;
 }
-
-
-.menu__mobile{
-	display: none;
-}
-
-
-@media screen and (max-width: 991px){
-	.dashboard__logo {
-		color: #fff;
-	    padding-top: 20px;
-	    margin-bottom: 20px;
-	}
-	.fa-bars{
-		font-size: 30px;
-	    color: #fff;
-	    margin-top: 15px;
-	    margin-right: 15px;
-	    cursor: pointer;
-	}
-
-	.menu__mobile{
-		display: none;
-		text-align: right;
-		color: #666;
+@media screen and (max-width: 768px){
+	.formDash{
 		width: 100%;
-		background: #fff;
-		padding-right: 40px;
-		padding-bottom: 20px;
-		position: absolute;
-		z-index: 99;
-		margin-top: 45px;
-		animation-duration: 0.5s;
-	    animation-delay: 0s;
-	    animation-name: bounceInUp;
+		padding: 30px 5px;
+		box-shadow: none;
 	}
-	.dashboard__itens {
-	    color: #666;
+	.formCadastro{
+		width: 100%;
+		padding: 30px 5px;
+		box-shadow: none;
+	}
+	.blocoDashboard {
+	    margin-top: -150px;
+	}
+	.bg-painel{
+		padding-top: 30px;
 	}
 
 }
+.maisCarrosP{
+	cursor: pointer;
+}
+.maisCarrosP:hover{
+	color: #007bff;
+}
+input[type="file"]{
+	margin-bottom: 10px;
+}
+.formDash button{
+    width: 100%;
+    padding: 15px;
+    border-radius: 50px;
+}
 
 
-@media screen and (max-width: 600px){
+/*Lista*/
+.listOptions{
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 4px 4px 4px rgb(0,0,0,0.3);
+	padding: 30px;
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 40px;
+}
+.headerT .tH{
+	background: #F3123C;
+	padding: 10px;
+	color: #fff;
+	margin-bottom: 20px;
+	border: 1px solid #000;
+	text-align: center;
+}
 
-	.dashboardheader__titulo {
-	    font-size: 20px;
+.linhaTR{
+	text-transform: capitalize;
+	margin-bottom: 10px;
+	text-align: center;
+}
+.linhaTR p{
+	margin-top: 10px;
+}
+.buttonEditar{
+	background: #00A61E !important;
+	padding: 8px 40px !important;
+    border-radius: 50px !important;
+    border: none !important;   
+    margin-top: 5px; 
+}
+
+
+.button_remove{
+	background: #F3123C !important;
+	padding: 8px 40px !important;
+    border-radius: 50px !important;
+    border: none !important;
+    width: 150px !important;
+    color: #fff !important;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}	
+.buttonApagar{
+	background: #F3123C !important;
+	padding: 8px 40px !important;
+    border-radius: 50px !important;
+    border: none !important;   
+    margin-top: 5px; 
+}
+
+
+
+
+/*Modal*/
+
+	
+.modal-box {
+  z-index: 900;
+}
+
+.modal-sandbox {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: transparent;
+}
+
+.modal-apagar {
+  display: none; 
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgb(0,0,0);
+  background: rgba(0,0,0,.8);
+  overflow: auto;
+  z-index: 999;
+}
+
+.modal-box {
+  position: relative;
+  max-width: 400px;
+  margin: 100px auto;
+  animation-name: modalbox;
+  animation-duration: .4s;
+  animation-timing-function: cubic-bezier(0,0,.3,1.6);
+}
+
+.modal-header {
+  padding: 20px 40px;
+  background: #F3123C;
+  color: #ffffff;
+}
+.modal-header h1{
+  font-size: 25px;
+}
+
+.modal-body {
+  background: #ECEFF1;
+  padding: 30px 40px;
+}
+
+/* Close Button */
+.close-modal {
+  text-align: right;
+  cursor: pointer;
+}
+
+/* Animation */
+@-webkit-keyframes modalbox {
+  0% {
+    top: -250px; 
+    opacity: 0;
+  }
+  100% {
+    top: 0; 
+    opacity: 1;
+  }
+}
+
+@keyframes modalbox {
+  0% {
+    top: -250px; 
+    opacity: 0;
+  }
+  100% {
+    top: 0; 
+    opacity: 1;
+  }
+}
+
+
+.modal-trigger, button {
+  top: 50%;
+  left: 50%;
+  padding: 20px 40px;
+  background: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  text-decoration: none;
+}
+
+.modal-trigger {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transition: ease .2s;
+}
+
+.button-modal {
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  color: #333333;
+  background: #F3123C;
+  color: #fff;
+}
+
+.button-modal--cancelar {
+  border-radius: 50px;
+  outline: none;
+  background: none;
+  outline: none;
+  color: #292929;
+  margin-right:  15px;
+}
+
+.modal-trigger:hover {
+  padding: 20px 60px;
+}
+@media screen and (max-width: 450px){
+	.modal-box {
+	    max-width: 290px;
 	}
-	.txCXS{
-		text-align: center;
-		margin-top: 10px;
-	}
-	.nXS{
-		margin-top: 0px;
-    	margin-bottom: 0;
-    	font-size: 8px;
-	}
-	.dashboard__pedidoValorBLock {
-	    margin-top: 11px;
-	    margin-right: 0;
-	}
-	.dashboard__pedidoTitulo{
-		font-size: 16px;
+	.button-modal--cancelar {
+	  margin-right:  0px;
 	}
 }

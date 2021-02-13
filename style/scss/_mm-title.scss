@@ -1,0 +1,17 @@
+@import "mixin/title";
+@import "mixin/subtitle";
+
+.mm-title {
+	@media (min-width: $screen-lg-min) {
+		margin-top: 150px;
+	}
+
+	h1 {
+		@include title();
+		padding-left: 0;
+	}
+
+	p {
+		@include subtitle();
+	}
+}

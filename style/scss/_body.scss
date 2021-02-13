@@ -1,0 +1,106 @@
+.mm-back {
+	&__content {
+		position: absolute;
+		top: 40%;
+		width: 100%;
+		text-align: center;
+		color: white;
+
+		h1 {
+			font: {
+				size: 3vw;
+				family: Montserrat;
+				weight: bold;
+			}
+		}
+
+		.fas {
+			border-radius: 50px;
+			border: 1px solid white;
+			width: 84px;
+			height: 84px;
+			text-align: center;
+			position: relative;
+			padding: 15px;
+			color: white;
+			cursor: pointer;
+
+			@media (max-width: $screen-sm-max) {
+				border: 0;
+			}
+
+			&:before {
+				font-size: 50px;
+
+				@media (max-width: $screen-sm-max) {
+					font-size: 20px;
+				}
+			}
+		}
+	}
+
+	.mm-slider {
+		&-img {
+			&-one {
+				width: 100%;
+				height: 350px;
+				background: {
+					image: url("../img/Grupo_56.png");
+					repeat: no-repeat;
+					position: center;
+					size: cover;
+				}
+			}
+			&-two {
+				width: 100%;
+				height: 350px;
+				background: {
+					image: url("../img/Grupo_56.png");
+					repeat: no-repeat;
+					position: center;
+					size: cover;
+				}
+			}
+			&-three {
+				width: 100%;
+				height: 350px;
+				background: {
+					image: url("../img/Grupo_56.png");
+					repeat: no-repeat;
+					position: center;
+					size: cover;
+				}
+			}
+			@media (min-width: $screen-sm-min) {
+				&-one,
+				&-two,
+				&-three {
+					height: 451px;
+				}
+			}
+		}
+
+		.slick-dots {
+			list-style: none;
+			display: flex;
+			justify-content: center;
+			padding: 15px;
+
+			li {
+				width: 35px;
+				height: 35px;
+				margin: 0 5px;
+				border-radius: 100px;
+				background-color: #cccccc;
+
+				button {
+					opacity: 0;
+				}
+			}
+
+			.slick-active {
+				background-color: $color-principal;
+			}
+		}
+	}
+}

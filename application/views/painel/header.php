@@ -16,7 +16,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 
-    <link href="<?= base_url('style/css/header.css'); ?>" rel="stylesheet">
+    <!-- <link href="<?= base_url('style/css/header.css'); ?>" rel="stylesheet"> -->
+    <link href="<?= base_url('style/css/painel/home.css'); ?>" rel="stylesheet">
+    <link href="<?= base_url('style/css/comuns.css'); ?>" rel="stylesheet">
     <link href="<?= base_url('style/css/theme-animate.css'); ?>" rel="stylesheet">
 
     <link href="<?= base_url('style/css/bootstrap/bootstrap.min.css'); ?>" rel="stylesheet">
@@ -25,6 +27,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"/>
     
+    <script src="https://cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script>
+   
   
 
 
@@ -39,6 +43,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             /*border: 0px solid #041239;*/
             outline: 0px;
         }
+    </style>
+    <style type="text/css">
+        
+        .nav-item a{
+            color: #fff !important;
+        }
+
     </style>
 
 </head>

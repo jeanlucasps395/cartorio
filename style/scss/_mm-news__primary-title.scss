@@ -1,0 +1,13 @@
+.mm-news__primary-title {
+	position: relative;
+
+	&:before {
+		content: "";
+		position: absolute;
+		left: 0;
+		width: 10px;
+		height: 100px;
+		background-color: $color-principal;
+		border-radius: 10px;
+	}
+}

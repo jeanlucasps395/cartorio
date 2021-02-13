@@ -1,0 +1,45 @@
+.mm-block__marcas {
+	display: flex;
+	justify-content: space-between;
+	padding: 0;
+
+	@media (max-width: $screen-xs-max) {
+		display: block;
+	}
+
+	li {
+		background: $color-principal;
+		height: 206px;
+		// border-radius: 23px;
+		border-top-left-radius: 50px;
+		border-top-right-radius: 0px;
+		border-bottom-right-radius: 50px;
+		border-bottom-left-radius: 0px;
+		font-size: 25px;
+		font-weight: bold;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		transition: all 0.2s ease-out;
+		cursor: pointer;
+		margin: 15px;
+		margin-top: 57px;
+		color: $color-font;
+
+		&:hover {
+			transform: translateY(-10px);
+		}
+
+		@media (max-width: $screen-xs-max) {
+			margin: 15px 0;
+			margin-top: 57px;
+		}
+
+		a {
+			color: $color-font;
+			font-weight: normal;
+			text-decoration: underline;
+		}
+	}
+}
