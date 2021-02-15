@@ -21,32 +21,39 @@ $(function () {
 });
 
 // SLICK PRODUCT
+// $(document).ready(function () {
+// 	$(".mm-product__block-left--img").slick({
+// 		slidesToShow: 1,
+// 		slidesToScroll: 1,
+// 		responsive: [
+// 			{
+// 				breakpoint: 1440,
+// 				settings: {
+// 					slidesToShow: 1,
+// 					slidesToScroll: 1,
+// 				},
+// 			},
+// 			{
+// 				breakpoint: 769,
+// 				settings: {
+// 					slidesToShow: 1,
+// 					slidesToScroll: 1,
+// 				},
+// 			},
+// 			{
+// 				breakpoint: 500,
+// 				settings: {
+// 					slidesToShow: 1,
+// 					slidesToScroll: 1,
+// 				},
+// 			},
+// 		],
+// 	});
+// });
+
+// ACORDION
 $(document).ready(function () {
-	$(".mm-product__block-left--img").slick({
-		slidesToShow: 1,
-		slidesToScroll: 1,
-		responsive: [
-			{
-				breakpoint: 1440,
-				settings: {
-					slidesToShow: 1,
-					slidesToScroll: 1,
-				},
-			},
-			{
-				breakpoint: 769,
-				settings: {
-					slidesToShow: 1,
-					slidesToScroll: 1,
-				},
-			},
-			{
-				breakpoint: 500,
-				settings: {
-					slidesToShow: 1,
-					slidesToScroll: 1,
-				},
-			},
-		],
+	$(".mm-block__icon").click(function () {
+		$(this).parent().find(".mm-block__title ul").slideToggle("slow");
 	});
 });

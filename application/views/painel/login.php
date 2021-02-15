@@ -4,7 +4,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="viewport" content="width=device-width, height=device-height">
 <meta name="theme-color" content="#2E3192">
-<title>Cartorio-V2</title>
+<title>cartorio</title>
 <meta name="robots" content="index,follow">
 
 <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800&display=swap" rel="stylesheet">
@@ -37,7 +37,7 @@
 <section class="login">
 	<div class="login__bg">
 		<div class="login_bloco">
-			<h1 class="login_titulo">Cartorio-V2</h1>
+			<h1 class="login_titulo">cartorio</h1>
 			<p class="login_subtitulo">Painel reestrito para administradores do site</p>
 			<form action="<?= base_url('painel/login'); ?>" method="post">
 				<div class="login_bloco-input">

@@ -409,6 +409,34 @@ header ul li:last-child {
   font-weight: bold;
   height: 75px;
 }
+.mm-block__title ul {
+  display: none;
+  padding: 0;
+  width: 100%;
+}
+.mm-block__title ul li {
+  width: 100%;
+  text-align: initial;
+  padding: 5px 0;
+}
+.mm-block__title ul li a {
+  position: relative;
+}
+.mm-block__title ul li a:before {
+  content: "";
+  background-color: #243e66;
+  width: 0;
+  height: 3px;
+  position: absolute;
+  bottom: -5px;
+}
+.mm-block__title ul li a:hover {
+  text-decoration: none;
+}
+.mm-block__title ul li a:hover:before {
+  transition: 0.5s all ease-out;
+  width: 100%;
+}
 .mm-block__detalhes {
   display: flex;
   align-items: center;

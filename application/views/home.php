@@ -40,34 +40,10 @@
             </div>
         </section>
 
-        <section class="container">
-            <section>
-                <div class="mm-news">
-                    <div class="mm-news__primary-title">
-                        <h1>Quem somos</h1>
-                        <p>Conheça um pouco da nossa história</p>
-                    </div>
-
-                    <div class="mm-news__bock">
-                        <p>
-                            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam am
-                            aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemoa
-                            enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores e
-                            os qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, co
-                            nsectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliqua
-                            m quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laborio
-                            sam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-                            esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariat dsad dwur?"
-                        </p>
-                    </div>
-                </div>
-            </section>
-        </section>
-
         <section>
             <div class="container">
                 <div class="mm-title">
-                    <a id="veiculo"></a>
+                    <a id="servico"></a>
                     <div class="mm-news__primary-title">
                         <h1>Serviços</h1>
                         <p>Veja nossos Serviços</p>
@@ -83,6 +59,19 @@
                             </div>
                             <div class="mm-block__title">
                                 <h4>Registro Civil</h4>
+                                <ul>
+                                    <li><a href="#">Registro de Nascimento</a></li>
+                                    <li><a href="#">Registro de Casamento</a></li>
+                                    <li><a href="#">Registro de Óbito</a></li>
+                                    <li><a href="#">2º via de certidões - nascimento/casamento/</a></li>
+                                    <li><a href="#">óbito/certidões de inteiro teor</a></li>
+                                    <li><a href="#">2º via de certidões - escritura e procuração </a></li>
+                                    <li><a href="#">Registros Livro E - Transcrição de nascimento/casamento e óbito/ Interdição/ Emancipação/ União Estável/</a></li>
+                                    <li><a href="#">Reconhecimento Socioafetivo</a></li>
+                                    <li><a href="#">Alteração de Patronímico Materno</a></li>
+                                    <li><a href="#">Reconhecimento de Paternidade</a></li>
+                                    <li><a href="#">Retificações</a></li>
+                                </ul>
                             </div>
                             <div class="mm-block__icon">
                                 <i class="fas fa-angle-down"></i>
@@ -101,6 +90,13 @@
                             </div>
                             <div class="mm-block__title">
                                 <h4>Reconhecimento de firma e autenticação</h4>
+                                <ul>
+                                    <li><a href="#">Abertura de Firmas (Cartão de assinaturas)</a> </li>
+                                    <li><a href="#">Reconhecimento de firma por semelhança</a> </li>
+                                    <li><a href="#">Reconhecimento de firma por autenticidade</a> </li>
+                                    <li><a href="#">Autenticação</a> </li>
+                                    <li><a href="#">Carta de Sentença</a> </li>
+                                </ul>
                             </div>
                             <div class="mm-block__icon">
                                 <i class="fas fa-angle-down"></i>
@@ -119,6 +115,20 @@
                             </div>
                             <div class="mm-block__title">
                                 <h4>Escrituras</h4>
+                                <ul>
+                                    <li><a href="#">Testamento</a> </li>
+                                    <li><a href="#">Venda e Compra</a> </li>
+                                    <li><a href="#">Doação</a> </li>
+                                    <li><a href="#">Inventários/Separação/Divórcio</a> </li>
+                                    <li><a href="#">Escritura de Declaração</a> </li>
+                                    <li><a href="#">Escritura de Declaração de União Estável</a> </li>
+                                    <li><a href="#">Escritura de Dissolução de União Estável</a> </li>
+                                    <li><a href="#">Emancipação</a> </li>
+                                    <li><a href="#">Pacto Antenupcial</a> </li>
+                                    <li><a href="#">Dependência Econômica</a> </li>
+                                    <li><a href="#">Usucapião</a> </li>
+                                    <li><a href="#">Ata Notarial</a> </li>
+                                </ul>
                             </div>
                             <div class="mm-block__icon">
                                 <i class="fas fa-angle-down"></i>
@@ -137,6 +147,11 @@
                             </div>
                             <div class="mm-block__title">
                                 <h4>Procuração</h4>
+                                <ul>
+                                    <li><a href="#">Procurações</a></li>
+                                    <li><a href="#">Substabelecimento</a></li>
+                                    <li><a href="#">Revogação</a></li>
+                                </ul>
                             </div>
                             <div class="mm-block__icon">
                                 <i class="fas fa-angle-down"></i>
@@ -156,6 +171,7 @@
             <div class="container">
                 <div class="mm-brand">
                     <div class="mm-news__primary-title">
+                        <a id="table"></a>
                         <h1>Tabela de valores</h1>
                         <p>Veja nossos valores</p>
                     </div>

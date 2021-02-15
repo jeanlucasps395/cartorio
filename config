@@ -5,9 +5,9 @@
 	logallrefupdates = true
 	symlinks = false
 	ignorecase = true
-[remote "Cartorio-V2"]
-	url = https://github.com/jeanlucasps395/Cartorio-V2.git
-	fetch = +refs/heads/*:refs/remotes/Cartorio-V2/*
+[remote "cartorio"]
+	url = https://github.com/jeanlucasps395/cartorio.git
+	fetch = +refs/heads/*:refs/remotes/cartorio/*
 [branch "master"]
-	remote = Cartorio-V2
+	remote = cartorio
 	merge = refs/heads/master

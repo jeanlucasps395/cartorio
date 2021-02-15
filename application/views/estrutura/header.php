@@ -5,13 +5,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
 <html lang="pt-br">
 
 <head>
-  <meta name="Description" content="Colchoes">
+  <meta name="Description" content="Cartório Albino Neves">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="viewport" content="width=device-width, height=device-height">
-  <meta name="theme-color" content="#2E3192">
-  <title>Wf colchões</title>
+  <meta name="theme-color" content="#243e66">
+  <title>Cartório Albino Neves</title>
   <meta name="robots" content="index,follow">
 
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800&display=swap" rel="stylesheet">
@@ -117,13 +117,13 @@ defined('BASEPATH') or exit('No direct script access allowed');
             <a class="nav-link" href="<?= base_url('home/quemSomos'); ?>">Quem somos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?= base_url('home/servico'); ?>">Serviços</a>
+            <a class="nav-link" href="#servico" onclick="closeMenuXS()">Serviços</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?= base_url('home/table'); ?>">Tabela de valores</a>
+            <a class="nav-link" href="#table" onclick="closeMenuXS()">Tabela de valores</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="<?= base_url('home/contato'); ?>">Contato</a>
+            <a class="nav-link" href="#contato" onclick="closeMenuXS()">Contato</a>
           </li>
           <!-- <li class="nav-item">
 
@@ -178,13 +178,14 @@ defined('BASEPATH') or exit('No direct script access allowed');
               <a class="nav-link" href="<?= base_url('home/quemSomos'); ?>">Quem somos</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?= base_url('home/servico'); ?>">Serviços</a>
+              <!-- <a class="nav-link" href="<?= base_url('home/servico'); ?>">Serviços</a> -->
+              <a class="nav-link" href="#servico">Serviços</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?= base_url('home/table'); ?>">Tabela de valores</a>
+              <a class="nav-link" href="#table">Tabela de valores</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="<?= base_url('home/contato'); ?>">Contato</a>
+              <a class="nav-link" href="#contato">Contato</a>
             </li>
             <!-- 
               <li class="nav-item">

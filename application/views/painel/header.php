@@ -1,17 +1,19 @@
 <?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-?><!DOCTYPE html>
+defined('BASEPATH') or exit('No direct script access allowed');
+?>
+<!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
-     <meta name = "Description" content = "Colchoes" >    
+    <meta name="Description" content="Cartório Albino Neves">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, height=device-height">
     <meta name="theme-color" content="#2E3192">
-    <title>Wf colchões</title>
+    <title>Cartório Albino Neves</title>
     <meta name="robots" content="index,follow">
-    
+
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,800&display=swap" rel="stylesheet">
 
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
@@ -25,31 +27,32 @@ defined('BASEPATH') OR exit('No direct script access allowed');
     <script src="<?= base_url('style/js/jquery.js'); ?>"></script>
     <script src="<?= base_url('style/js/bootstrap/bootstrap.min.js'); ?>"></script>
 
-    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"/>
-    
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+
     <script src="https://cdn.ckeditor.com/4.14.1/standard/ckeditor.js"></script>
-   
-  
+
+
 
 
     <link rel="stylesheet" type="text/css" href="https://kit-pro.fontawesome.com/releases/v5.10.1/css/pro.min.css">
 
     <style>
-        body{
+        body {
             font-family: 'roboto' !important;
         }
-        textarea:focus, input:focus, select:focus {
+
+        textarea:focus,
+        input:focus,
+        select:focus {
             /*box-shadow: 0px 0px 2px #041239;*/
             /*border: 0px solid #041239;*/
             outline: 0px;
         }
     </style>
     <style type="text/css">
-        
-        .nav-item a{
+        .nav-item a {
             color: #fff !important;
         }
-
     </style>
 
 </head>

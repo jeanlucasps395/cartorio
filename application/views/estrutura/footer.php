@@ -1,4 +1,5 @@
  <section>
+     <a id="contato"></a>
      <div class="mm-background">
          <div class="container">
              <div class="row">
@@ -77,7 +78,8 @@
                  <ul class="mm-footer__block-two">
                      <li>
                          <a href="">
-                             Artigos</li>
+                             Artigos
+                     </li>
                      </a>
                      <li>
                          <a href="">
@@ -105,7 +107,7 @@
                  <ul class="mm-footer__block--info">
                      <li>Rua para testes 123, Arujá - São Paulo 07425-000</li>
                      <li>(11) 90000 - 0000</li>
-                     <li>Cartorio-V2@m3otors.com.br</li>
+                     <li>cartorio@m3otors.com.br</li>
                      <li>Segunda a sexta das 10h00 as 19h00</li>
                  </ul>
              </div>
