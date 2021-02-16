@@ -52,11 +52,7 @@
      </div>
  </section>
  </main>
-
-
  <!-- <div class="overlay"></div> -->
-
-
  <footer>
      <div class="container">
          <div class="mm-footer">
@@ -107,7 +103,7 @@
                  <ul class="mm-footer__block--info">
                      <li>Rua para testes 123, Arujá - São Paulo 07425-000</li>
                      <li>(11) 90000 - 0000</li>
-                     <li>cartorio@m3otors.com.br</li>
+                     <li>cartorio@gmail.com.br</li>
                      <li>Segunda a sexta das 10h00 as 19h00</li>
                  </ul>
              </div>
